@@ -64,11 +64,16 @@
     "pem": "^1.14.8"
   },
   "optionalDependencies": {
-    "@abandonware/bluetooth-hci-socket": "0.5.3-12",
-    "@abandonware/noble": "1.9.2-25",
+    "@stoprocent/bluetooth-hci-socket": "^1.4.1",
+    "@stoprocent/noble": "^1.15.1",
     "govee-bt-client": "^1.0.15"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.11.2"
+  },
+  "overrides": {
+    "govee-bt-client": {
+      "@abandonware/noble": "npm:@stoprocent/noble@^1.15.1"
+    }
   }
 }
