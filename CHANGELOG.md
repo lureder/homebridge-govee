@@ -8,12 +8,21 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
-## BETA
+## v10.14.0 (2024-12-08)
 
 ### Added 
 
 - add matter ignore list and config opt
+  - using an initial (but probably incomplete) list of Matter-enabled models
+  - please report any missing models or issues via GitHub
+
+### Changed
+
 - try to allow bluetooth on macs
+
+### Fixed
+
+- plugin config screen issue (undefined methods)
 
 ## v10.13.0 (2024-12-08)
 
