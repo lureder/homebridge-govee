@@ -8,7 +8,16 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
-## BETA
+## v10.13.0 (2024-12-08)
+
+### Added
+
+- added models H8072 and H80C4 (#969) (@EricHigdon)
+- added recent models
+
+### Changed
+
+- Bump `node` recommended versions to `v18.20.5` or `v20.18.1` or `v22.12.0`
 
 ### Fixed
 
