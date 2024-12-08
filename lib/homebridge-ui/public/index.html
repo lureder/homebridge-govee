@@ -302,17 +302,17 @@
           document.getElementById('displayName').innerHTML = thisAcc.displayName
           document.getElementById('deviceId').innerHTML = context.gvDeviceId || 'N/A'
           document.getElementById('model').innerHTML = context.gvModel || 'N/A'
-          if (context.hasAWSControl) {
+          if (context.hasAwsControl) {
             document.getElementById('aws_supported').innerHTML = 'Yes'
-            document.getElementById('aws_enabled').innerHTML = context.useAWSControl ? 'Yes' : 'No'
+            document.getElementById('aws_enabled').innerHTML = context.useAwsControl ? 'Yes' : 'No'
             document.getElementById('row_aws_enabled').style.display = 'table-row'
           } else {
             document.getElementById('aws_supported').innerHTML = 'No'
             document.getElementById('row_aws_enabled').style.display = 'none'
           }
-          if (context.hasBLEControl) {
+          if (context.hasBleControl) {
             document.getElementById('ble_supported').innerHTML = 'Yes'
-            document.getElementById('ble_enabled').innerHTML = context.useBLEControl ? 'Yes' : 'No'
+            document.getElementById('ble_enabled').innerHTML = context.useBleControl ? 'Yes' : 'No'
             document.getElementById('ble_address').innerHTML = context.bleAddress
             document.getElementById('ble_name').innerHTML = context.bleName
             document.getElementById('row_ble_enabled').style.display = 'table-row'
@@ -324,11 +324,11 @@
             document.getElementById('row_ble_address').style.display = 'none'
             document.getElementById('row_ble_name').style.display = 'none'
           }
-          if (context.hasLANControl) {
+          if (context.hasLanControl) {
             document.getElementById('lan_supported').innerHTML = 'Yes'
-            document.getElementById('lan_enabled').innerHTML = context.useLANControl ? 'Yes' : 'No'
+            document.getElementById('lan_enabled').innerHTML = context.useLanControl ? 'Yes' : 'No'
             document.getElementById('row_lan_enabled').style.display = 'table-row'
-            if (context.useLANControl && context.ipAddress) {
+            if (context.useLanControl && context.ipAddress) {
               document.getElementById('ip_address').innerHTML = context.ipAddress
               document.getElementById('row_ip_address').style.display = 'table-row'
             } else {

@@ -23,6 +23,14 @@
         "title": "Govee Password",
         "description": "Required for certain light models. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices\" target=\"_blank\">Read more →</a>"
       },
+      "ignoreMatter": {
+        "type": "boolean",
+        "title": "Ignore Matter Devices",
+        "description": "If enabled, the plugin will not set up Matter-enabled models.",
+        "condition": {
+          "functionBody": "return (model.username && model.password);"
+        }
+      },
       "httpRefreshTime": {
         "title": "HTTP Refresh Interval",
         "type": "integer",
@@ -1421,6 +1429,7 @@
       "description": "Advanced settings for the plugin, including interval options.",
       "expandable": true,
       "items": [
+        "ignoreMatter",
         "disableDeviceLogging",
         "httpRefreshTime",
         "awsDisable",
