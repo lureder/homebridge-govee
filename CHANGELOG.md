@@ -10,6 +10,10 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 
 ## BETA
 
+### Added
+
+- new models
+
 ### Changed
 
 - simplify BLE connections and updates
