@@ -13,6 +13,7 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 ### Added
 
 - new models
+- added support for H6104 status updates from AWS (#1043) (@Lumute)
 
 ### Changed
 
