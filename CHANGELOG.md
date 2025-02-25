@@ -8,6 +8,18 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
+## v10.16.0 (2025-02-24)
+
+### Added
+
+- new models
+- added support for H6104 status updates from AWS (#1043) (@Lumute)
+
+### Changed
+
+- simplify BLE connections and updates
+- updated dependencies
+
 ## v10.15.0 (2024-12-09)
 
 ### Added
