@@ -8,6 +8,20 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
+## v10.17.0 (2025-03-22)
+
+### Added
+
+- support light models `H6013` and `H8604`
+
+### Changed
+
+- updated dependencies
+
+### Fixed
+
+- fix hap-nodejs permissions for hb2
+
 ## v10.16.0 (2025-02-24)
 
 ### Added

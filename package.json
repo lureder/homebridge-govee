@@ -2,7 +2,7 @@
   "name": "@homebridge-plugins/homebridge-govee",
   "alias": "Govee",
   "type": "module",
-  "version": "10.16.0",
+  "version": "10.17.0",
   "description": "Homebridge plugin to integrate Govee devices into HomeKit.",
   "author": {
     "name": "bwp91",
@@ -48,7 +48,7 @@
   "main": "lib/index.js",
   "engines": {
     "homebridge": "^1.6.0 || ^2.0.0-beta.0",
-    "node": "^18.20.7 || ^20.18.3 || ^22.14.0"
+    "node": "^18.20.7 || ^20.19.0 || ^22.14.0"
   },
   "scripts": {
     "lint": "eslint . --fix",
@@ -57,23 +57,23 @@
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.0.1",
     "aws-iot-device-sdk": "^2.2.15",
-    "axios": "^1.7.9",
+    "axios": "^1.8.4",
     "node-persist": "^4.0.4",
     "node-rsa": "^1.1.1",
     "p-queue": "^8.1.0",
     "pem": "^1.14.8"
   },
   "optionalDependencies": {
-    "@stoprocent/bluetooth-hci-socket": "^1.4.4",
-    "@stoprocent/noble": "^1.18.2",
+    "@stoprocent/bluetooth-hci-socket": "^1.5.2",
+    "@stoprocent/noble": "^1.19.1",
     "govee-bt-client": "^1.0.15"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.3.0"
+    "@antfu/eslint-config": "^4.10.2"
   },
   "overrides": {
     "govee-bt-client": {
-      "@abandonware/noble": "npm:@stoprocent/noble@^1.18.2"
+      "@abandonware/noble": "npm:@stoprocent/noble@^1.19.1"
     }
   }
 }
