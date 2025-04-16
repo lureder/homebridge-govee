@@ -8,6 +8,16 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
+## v10.18.0 (2025-04-13)
+
+### Added
+
+- add support for `H5109` as a thermostat (#1082) (@nrc2358)
+
+### Changed
+
+- updated dependencies
+
 ## v10.17.0 (2025-03-22)
 
 ### Added
