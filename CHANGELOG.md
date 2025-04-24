@@ -8,6 +8,16 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
+## v10.19.0 (2025-04-19)
+
+### Added
+
+- add `H5110` to models of thermo sensors (#1087) (@N9PBJ)
+
+### Changed
+
+- updated dependencies
+
 ## v10.18.0 (2025-04-13)
 
 ### Added
