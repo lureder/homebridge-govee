@@ -8,6 +8,31 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
+## v11.0.1 (2025-05-18)
+
+⚠️ This plugin no longer officially supports Node 18. Please update to Node 20 or 22.
+
+### Changed
+
+- downgrade bluetooth packages to fix child bridge restart issues
+
+## v11.0.0 (2025-05-18)
+
+⚠️ This plugin no longer officially supports Node 18. Please update to Node 20 or 22.
+
+### Added
+
+- support light models `H600B` and `H7093`
+- support fan model `H7107`
+
+### Changed
+
+- updated dependencies
+
+### Removed
+
+- remove official support for node 18
+
 ## v10.19.0 (2025-04-19)
 
 ### Added
