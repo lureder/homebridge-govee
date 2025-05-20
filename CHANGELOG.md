@@ -8,9 +8,15 @@ This project tries to adhere to [Semantic Versioning](http://semver.org/). In pr
 - `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
 - `PATCH` version when backwards-compatible bug fixes are implemented
 
-## v11.0.1 (2025-05-18)
+## v11.0.2 (2025-05-20)
 
 ⚠️ This plugin no longer officially supports Node 18. Please update to Node 20 or 22.
+
+### Changed
+
+- enable logging for unknown scene codes for the ice maker
+
+## v11.0.1 (2025-05-18)
 
 ### Changed
 
