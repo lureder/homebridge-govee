@@ -2,7 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
-## v11.1.1 (Unreleased)
+## v11.2.0 (Unreleased)
+
+### Notable Changes
+
+- support new govee models
+  - lights: `H60A4`
 
 ### Other Changes
 
