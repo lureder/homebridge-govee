@@ -7,6 +7,7 @@ All notable changes to homebridge-govee will be documented in this file.
 ### Other Changes
 
 - fix permission in release workflow
+- improvements to the deprecate workflow
 
 ## v11.2.0 (2025-07-12)
 
