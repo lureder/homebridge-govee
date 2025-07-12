@@ -10,6 +10,10 @@ All notable changes to homebridge-govee will be documented in this file.
 - allow exposing a temperature sensor as a thermostat
 - set `strictValidation` to `true` in the config schema file
 
+### Other Changes
+
+- github repo maintenance
+
 ## v11.0.2 (2025-05-20)
 
 ⚠️ This plugin no longer officially supports Node 18. Please update to Node 20 or 22.
