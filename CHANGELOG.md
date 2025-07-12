@@ -7,6 +7,7 @@ All notable changes to homebridge-govee will be documented in this file.
 ### Notable Changes
 
 - work-in-progress support for ice-makers
+- allow exposing a temperature sensor as a thermostat
 
 ## v11.0.2 (2025-05-20)
 
