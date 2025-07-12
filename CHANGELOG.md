@@ -4,6 +4,10 @@ All notable changes to homebridge-govee will be documented in this file.
 
 ## v11.2.1 (Unreleased)
 
+### Notable Changes
+
+- fix custom plugin config modal styles in ui 5
+
 ### Other Changes
 
 - fix permission in release workflow
