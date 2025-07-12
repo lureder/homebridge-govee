@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.2.1 (Unreleased)
+
+### Other Changes
+
+- fix permission in release workflow
+
 ## v11.2.0 (2025-07-12)
 
 ### Notable Changes
