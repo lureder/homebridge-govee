@@ -9,6 +9,9 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: read
+
 jobs:
   eslint:
     uses: homebridge/.github/.github/workflows/eslint.yml@latest

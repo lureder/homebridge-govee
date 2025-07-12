@@ -12,6 +12,7 @@ All notable changes to homebridge-govee will be documented in this file.
 ### Other Changes
 
 - fix plugin name in release workflow
+- add permissions to workflows
 
 ## v11.1.0 (2025-07-12)
 
