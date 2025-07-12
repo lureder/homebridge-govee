@@ -9,6 +9,9 @@ All notable changes to homebridge-govee will be documented in this file.
 - work-in-progress support for ice-makers
 - allow exposing a temperature sensor as a thermostat
 - set `strictValidation` to `true` in the config schema file
+- support new govee models
+  - lights: `H601E` `H6048` `H60A6` `H60B0` `H6630` `H7025` `H7086` `H8022`
+  - ice-makers: `H717D` (work-in-progress)
 
 ### Other Changes
 
