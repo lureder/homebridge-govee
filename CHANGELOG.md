@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.3.1 (Unreleased)
+
+### Notable Changes
+
+- fix eve characteristics for hb 2
+
 ## v11.3.0 (2025-07-13)
 
 ### Notable Changes
