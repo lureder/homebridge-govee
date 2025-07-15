@@ -2,7 +2,7 @@
   "name": "@homebridge-plugins/homebridge-govee",
   "alias": "Govee",
   "type": "module",
-  "version": "11.0.2",
+  "version": "11.3.1",
   "description": "Homebridge plugin to integrate Govee devices into HomeKit.",
   "author": {
     "name": "bwp91",
@@ -48,16 +48,16 @@
   "main": "lib/index.js",
   "engines": {
     "homebridge": "^1.6.0 || ^2.0.0-beta.0",
-    "node": "^20.19.2 || ^22.15.1"
+    "node": "^20 || ^22 || ^24"
   },
   "scripts": {
-    "lint": "eslint . --fix",
-    "rebuild": "rm -rf package-lock.json && rm -rf node_modules && npm install"
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "@homebridge/plugin-ui-utils": "^2.0.2",
+    "@homebridge/plugin-ui-utils": "^2.1.0",
     "aws-iot-device-sdk": "^2.2.15",
-    "axios": "^1.9.0",
+    "axios": "^1.10.0",
     "node-persist": "^4.0.4",
     "node-rsa": "^1.1.1",
     "p-queue": "^8.1.0",
@@ -68,6 +68,6 @@
     "@stoprocent/noble": "^1.19.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.13.1"
+    "@antfu/eslint-config": "^4.16.2"
   }
 }

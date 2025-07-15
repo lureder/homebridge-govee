@@ -2,11 +2,50 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
-This project tries to adhere to [Semantic Versioning](http://semver.org/). In practice, this means that the version number will be incremented based on the following:
+## v11.3.1 (2025-07-13)
 
-- `MAJOR` version when a minimum supported version of `homebridge` or `node` is increased to a new major version, or when a breaking change is made to the plugin config
-- `MINOR` version when a new device type is added, or when a new feature is added that is backwards-compatible
-- `PATCH` version when backwards-compatible bug fixes are implemented
+### Notable Changes
+
+- fix eve characteristics for hb 2
+
+## v11.3.0 (2025-07-13)
+
+### Notable Changes
+
+- fix custom plugin config modal styles in ui 5
+- fix custom characteristics for hb 2
+
+### Other Changes
+
+- fix permission in release workflow
+- improvements to the deprecate workflow
+
+## v11.2.0 (2025-07-12)
+
+### Notable Changes
+
+- support new govee models
+  - lights: `H60A4`
+
+### Other Changes
+
+- fix plugin name in release workflow
+- add permissions to workflows
+
+## v11.1.0 (2025-07-12)
+
+### Notable Changes
+
+- work-in-progress support for ice-makers
+- allow exposing a temperature sensor as a thermostat
+- set `strictValidation` to `true` in the config schema file
+- support new govee models
+  - lights: `H601E` `H6048` `H60A6` `H60B0` `H6630` `H7025` `H7086` `H8022`
+  - ice-makers: `H717D` (work-in-progress)
+
+### Other Changes
+
+- github repo maintenance
 
 ## v11.0.2 (2025-05-20)
 
