@@ -4,9 +4,14 @@ All notable changes to homebridge-govee will be documented in this file.
 
 ## v11.4.0 (Unreleased)
 
+- ⚠️ This update will remove and re-add any H7105 fan accessories in your Homebridge setup.
+  - It will replace the 0-100% rotation speed with a unitless rotation speed characteristic.
+  - The new rotation speed values (0-12) will better match the speeds from the Govee app.
+
 ### Notable Changes
 
-- add option to hide fan light (H7105)
+- add option to hide fan light for H7105
+- use unitless rotation speed for H7105
 
 ## v11.3.1 (2025-07-13)
 
