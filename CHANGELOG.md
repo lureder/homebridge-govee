@@ -13,6 +13,7 @@ All notable changes to homebridge-govee will be documented in this file.
 - add option to hide fan light for H7105
 - use unitless rotation speed for H7105
 - fix updating swing mode for H7105 when externally controlled
+- temporarily disable controlling swing mode for H7105
 
 ## v11.3.1 (2025-07-13)
 
