@@ -1153,6 +1153,14 @@
               "condition": {
                 "functionBody": "return (model.fanDevices && model.fanDevices[arrayIndices] && model.fanDevices[arrayIndices].deviceId && model.fanDevices[arrayIndices].deviceId.length === 23);"
               }
+            },
+            "hideLight": {
+              "type": "boolean",
+              "title": "Hide Light",
+              "description": "Enable this to not expose the light service in Homebridge/Homekit if your fan has one.",
+              "condition": {
+                "functionBody": "return (model.fanDevices && model.fanDevices[arrayIndices] && model.fanDevices[arrayIndices].deviceId && model.fanDevices[arrayIndices].deviceId.length === 23 && !model.fanDevices[arrayIndices].ignoreDevice);"
+              }
             }
           }
         }
@@ -1604,7 +1612,8 @@
           "items": [
             "fanDevices[].label",
             "fanDevices[].deviceId",
-            "fanDevices[].ignoreDevice"
+            "fanDevices[].ignoreDevice",
+            "fanDevices[].hideLight"
           ]
         }
       ]

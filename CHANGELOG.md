@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.4.0 (Unreleased)
+
+### Notable Changes
+
+- add option to hide fan light (H7105)
+
 ## v11.3.1 (2025-07-13)
 
 ### Notable Changes
