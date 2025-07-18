@@ -15,6 +15,10 @@ All notable changes to homebridge-govee will be documented in this file.
 - fix updating swing mode for H7105 when externally controlled
 - temporarily disable controlling swing mode for H7105
 
+### Other Changes
+
+- add maintainer message
+
 ## v11.3.1 (2025-07-13)
 
 ### Notable Changes
