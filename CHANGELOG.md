@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.5.0 (Unreleased)
+
+### Notable Changes
+
+- added light models: `H6038`, `H60B1` & `H60B2`
+
 ## v11.4.0 (2025-07-18)
 
 - ⚠️ This update will remove and re-add any H7105 fan accessories in your Homebridge setup.
