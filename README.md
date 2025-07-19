@@ -25,6 +25,8 @@ Homebridge plugin to integrate Govee devices into HomeKit
   - can control certain models locally via LAN control without any Govee credentials
   - does **not** make use of the Govee API key
 
+> I'm looking for some lovely people to help maintain this plugin, please get in touch on GitHub or Discord if you'd like to help out 😄
+
 ### Prerequisites
 
 - To use this plugin, you will need to already have:

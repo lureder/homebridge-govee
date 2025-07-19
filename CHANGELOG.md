@@ -2,6 +2,29 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.5.0 (2025-07-18)
+
+### Notable Changes
+
+- added light models: `H6038`, `H60B1` & `H60B2`
+
+## v11.4.0 (2025-07-18)
+
+- ⚠️ This update will remove and re-add any H7105 fan accessories in your Homebridge setup.
+  - It will replace the 0-100% rotation speed with a unitless rotation speed characteristic.
+  - The new rotation speed values (0-12) will better match the speeds from the Govee app.
+
+### Notable Changes
+
+- add option to hide fan light for H7105
+- use unitless rotation speed for H7105
+- fix updating swing mode for H7105 when externally controlled
+- temporarily disable controlling swing mode for H7105
+
+### Other Changes
+
+- add maintainer message
+
 ## v11.3.1 (2025-07-13)
 
 ### Notable Changes
