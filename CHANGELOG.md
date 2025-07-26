@@ -4,6 +4,10 @@ All notable changes to homebridge-govee will be documented in this file.
 
 ## v11.6.0 (Unreleased)
 
+### Notable Changes
+
+- added light models: `H6007` & `H6631`
+
 ### Other Changes
 
 - updated dependencies
