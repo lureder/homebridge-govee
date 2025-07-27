@@ -2,7 +2,7 @@
   "name": "@homebridge-plugins/homebridge-govee",
   "alias": "Govee",
   "type": "module",
-  "version": "11.5.1",
+  "version": "11.7.0",
   "description": "Homebridge plugin to integrate Govee devices into HomeKit.",
   "author": {
     "name": "bwp91",
@@ -68,6 +68,6 @@
     "@stoprocent/noble": "^1.19.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0"
+    "@antfu/eslint-config": "^5.0.0"
   }
 }

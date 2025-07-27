@@ -2,6 +2,22 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.7.0 (2025-07-26)
+
+### Notable Changes
+
+- added light models: `H600C`
+
+## v11.6.0 (2025-07-26)
+
+### Notable Changes
+
+- added light models: `H6007` & `H6631`
+
+### Other Changes
+
+- updated dependencies
+
 ## v11.5.1 (2025-07-24)
 
 ### Other Changes
