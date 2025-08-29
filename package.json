@@ -64,10 +64,10 @@
     "pem": "^1.14.8"
   },
   "optionalDependencies": {
-    "@stoprocent/bluetooth-hci-socket": "^1.5.2",
-    "@stoprocent/noble": "^1.19.1"
+    "@stoprocent/bluetooth-hci-socket": "^2.2.3",
+    "@stoprocent/noble": "^2.3.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.0.0"
+    "@antfu/eslint-config": "^5.2.1"
   }
 }
