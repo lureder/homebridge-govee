@@ -2,6 +2,11 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.9.0 (Unreleased)
+
+- added light model: `H702A` (#1159) (@lucavb)
+- added light models: `H702C`, `H61B8`, `H61B9`
+
 ## v11.8.0 (2025-08-29)
 
 ### Notable Changes
