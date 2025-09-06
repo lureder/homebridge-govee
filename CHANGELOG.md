@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.9.1 (Unreleased)
+
+### Other Changes
+
+- reorder and more logging in shutdown function
+
 ## v11.9.0 (2025-09-03)
 
 ### Notable Changes
