@@ -2,7 +2,7 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
-## v11.9.1 (Unreleased)
+## v11.10.0 (2025-09-07)
 
 ### Other Changes
 
