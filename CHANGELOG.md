@@ -7,6 +7,7 @@ All notable changes to homebridge-govee will be documented in this file.
 ### Other Changes
 
 - reorder and more logging in shutdown function
+- refactor ble clients for better stability
 
 ## v11.9.0 (2025-09-03)
 
