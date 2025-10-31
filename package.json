@@ -5,15 +5,32 @@
   "version": "11.10.0",
   "description": "Homebridge plugin to integrate Govee devices into HomeKit.",
   "author": {
-    "name": "lureder",
-    "email": ""
+    "name": "bwp91",
+    "email": "bwp91@icloud.com"
   },
   "license": "MIT",
-  
-  "homepage": "https://github.com/lureder/homebridge-govee.git",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/bwp91"
+    },
+    {
+      "type": "kofi",
+      "url": "https://ko-fi.com/bwp91"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/bwp91"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/BenPotter"
+    }
+  ],
+  "homepage": "https://github.com/homebridge-plugins/homebridge-govee",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lureder/homebridge-govee.git"
+    "url": "git+https://github.com/homebridge-plugins/homebridge-govee.git"
   },
   "bugs": {
     "url": "https://github.com/homebridge-plugins/homebridge-govee/issues"
