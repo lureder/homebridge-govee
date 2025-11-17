@@ -2,6 +2,14 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.11.0 (Unreleased)
+
+### Changes
+
+- update readme badges (use `shields.io`)
+- feat: add support for H6671 and H6672 (#1200) (@fish-sammy)
+- update dependencies
+
 ## v11.10.0 (2025-09-07)
 
 ### Other Changes
