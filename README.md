@@ -8,13 +8,11 @@
 Homebridge plugin to integrate Govee devices into HomeKit
 
 [![npm](https://img.shields.io/npm/v/@homebridge-plugins/homebridge-govee/latest?label=latest)](https://www.npmjs.com/package/@homebridge-plugins/homebridge-govee)
-[![npm](https://img.shields.io/npm/v/@homebridge-plugins/homebridge-govee/beta?label=beta)](https://github.com/homebridge-plugins/homebridge-govee/wiki/Beta-Version)
-
-[![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
-[![hoobs-certified](https://badgen.net/badge/HOOBS/certified/yellow?label=hoobs)](https://plugins.hoobs.org/plugin/homebridge-govee)
-
+[![npm](https://img.shields.io/npm/v/@homebridge-plugins/homebridge-govee/beta?label=beta)](https://github.com/homebridge-plugins/homebridge-govee/wiki/Beta-Version)<br>
+[![verified-by-homebridge](https://img.shields.io/badge/homebridge-verified-blueviolet?color=%23491F59&style=flat)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
+[![hoobs-certified](https://img.shields.io/badge/hoobs-certified-yellow)](https://plugins.hoobs.org/plugin/homebridge-govee)<br>
 [![npm](https://img.shields.io/npm/dt/@homebridge-plugins/homebridge-govee)](https://www.npmjs.com/package/@homebridge-plugins/homebridge-govee)
-[![Discord](https://img.shields.io/discord/432663330281226270?color=728ED5&logo=discord&label=discord)](https://discord.com/channels/432663330281226270/742733745743855627)
+[![Discord](https://img.shields.io/discord/432663330281226270?color=728ED5&logo=discord&label=hb-discord)](https://discord.com/channels/432663330281226270/742733745743855627)
 
 </span>
 
