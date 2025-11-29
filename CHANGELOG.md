@@ -2,7 +2,7 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
-## v11.11.0 (Unreleased)
+## v11.11.0 (2025-11-29)
 
 ### Changes
 
@@ -19,7 +19,6 @@ All notable changes to homebridge-govee will be documented in this file.
     - `H7094`, `H70B6`, `H806A`, `H80A4`, `H8840`, `H8841`
   - thermo-sensors: `H5112` (untested)
   - template: `H5140` (to be implemented)
-
 
 ## v11.10.0 (2025-09-07)
 
