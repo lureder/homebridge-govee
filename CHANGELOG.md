@@ -10,6 +10,7 @@ All notable changes to homebridge-govee will be documented in this file.
 - feat: add support for H6671 and H6672 (#1200) (@fish-sammy)
 - update dependencies
 - improvements to ble error catching and logging
+- improvements to `H7107` fan commands
 
 ## v11.10.0 (2025-09-07)
 
