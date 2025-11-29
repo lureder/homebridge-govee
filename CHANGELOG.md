@@ -7,11 +7,19 @@ All notable changes to homebridge-govee will be documented in this file.
 ### Changes
 
 - update readme badges (use `shields.io`)
-- feat: add support for H6671 and H6672 (#1200) (@fish-sammy)
+- feat: add support for `H6671` and `H6672` (#1200) (@fish-sammy)
 - update dependencies
 - improvements to ble error catching and logging
 - improvements to `H7107` fan commands
 - fix `DEP0187` deprecation warning
+- added support for new devices
+  - lights:
+    - `H6020`, `H6095`, `H60C1`, `H61D6`, `H66A0`, `H66A1`,
+    - `H6841`, `H7026`, `H7056`, `H7073`, `H707A`, `H7087`,
+    - `H7094`, `H70B6`, `H806A`, `H80A4`, `H8840`, `H8841`
+  - thermo-sensors: `H5112` (untested)
+  - template: `H5140` (to be implemented)
+
 
 ## v11.10.0 (2025-09-07)
 
