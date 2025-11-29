@@ -11,6 +11,7 @@ All notable changes to homebridge-govee will be documented in this file.
 - update dependencies
 - improvements to ble error catching and logging
 - improvements to `H7107` fan commands
+- fix `DEP0187` deprecation warning
 
 ## v11.10.0 (2025-09-07)
 
