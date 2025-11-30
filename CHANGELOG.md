@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-govee will be documented in this file.
 
+## v11.11.1 (Unreleased)
+
+### Changes
+
+- add support for `H80C5` lights
+
 ## v11.11.0 (2025-11-29)
 
 ### Changes
