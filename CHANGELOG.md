@@ -7,6 +7,7 @@ All notable changes to homebridge-govee will be documented in this file.
 ### Changes
 
 - add support for `H80C5` lights
+- fix `DEP0187` deprecation warning retry
 
 ## v11.11.0 (2025-11-29)
 
