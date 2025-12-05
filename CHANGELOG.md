@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changes
 
 - update workflows and npm publish via oidc
+- dependency updates
 
 ## v11.12.0 (2025-11-30)
 
