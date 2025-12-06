@@ -1,6 +1,13 @@
 # Change Log
 
-All notable changes to homebridge-govee will be documented in this file.
+All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
+
+## v11.12.1 (2025-12-05)
+
+### Changes
+
+- update workflows and npm publish via oidc
+- dependency updates
 
 ## v11.12.0 (2025-11-30)
 
