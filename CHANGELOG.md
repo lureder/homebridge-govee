@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - add support for `H8015` light bulb (#1221) (@zionsnider)
 - add `H619D` to native matter models
 - add support for `H8811` light device
+- determine debug mode from `-D` flag
 
 ## v11.13.0 (2025-12-15)
 
