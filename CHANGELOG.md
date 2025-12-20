@@ -2,6 +2,14 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.13.1 (Unreleased)
+
+### Changes
+
+- add `H600D` to native matter models (#1213) (@R-STR)
+- add support for `H8015` light bulb (#1221) (@zionsnider)
+- add `H619D` to native matter models
+
 ## v11.13.0 (2025-12-15)
 
 ### Changes
