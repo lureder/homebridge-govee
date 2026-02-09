@@ -8,6 +8,8 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix BLE control characteristic UUID regression (#1208) (@duggan)
 - add post-write delay and fix debug log formatting (#1208) (@duggan)
 - dependency updates
+- add new light models to constants
+  - `H601F`, `H60B0`, `H8066`, `H8076`, `H80A1`
 
 ## v11.14.0 (2025-12-28)
 
