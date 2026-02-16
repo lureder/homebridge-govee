@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - add new light models to constants
   - `H601F`, `H60B0`, `H8066`, `H8076`, `H80A1`
 - updated dependencies + lint rules
+- update workflow action versions
 
 ## v11.14.0 (2025-12-28)
 
