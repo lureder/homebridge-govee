@@ -12,6 +12,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
   - `H601F`, `H60B0`, `H8066`, `H8076`, `H80A1`
 - updated dependencies + lint rules
 - update workflow action versions
+- fix deprecate past releases script
 
 ## v11.14.0 (2025-12-28)
 
