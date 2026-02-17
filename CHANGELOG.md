@@ -2,6 +2,20 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.15.0 (2026-02-16)
+
+### Changes
+
+- mark `H600B` as matter-enabled for ignore (#1224) (@pgib)
+- fix BLE control characteristic UUID regression (#1208) (@duggan)
+- add post-write delay and fix debug log formatting (#1208) (@duggan)
+- dependency updates
+- add new light models to constants
+  - `H601F`, `H60B0`, `H8066`, `H8076`, `H80A1`
+- updated dependencies + lint rules
+- update workflow action versions
+- fix deprecate past releases script
+
 ## v11.14.0 (2025-12-28)
 
 ### Changes
