@@ -2,6 +2,13 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.15.1 (Unreleased)
+
+### Changes
+
+- update `matterModels` with model `H61D5` (#1237) (@R-STR)
+- use `reuseAddr` to prevent `EADDRINUSE` on restart
+
 ## v11.15.0 (2026-02-16)
 
 ### Changes
