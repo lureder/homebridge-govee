@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - dependency updates + maintenance
+- added more matter models to ignore
 
 ## v11.16.0 (2026-02-22)
 
