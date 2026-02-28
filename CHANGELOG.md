@@ -2,9 +2,16 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.17.0 (2027-02-27)
+
+### Changed
+
+- dependency updates + maintenance
+- added more matter models to ignore
+
 ## v11.16.0 (2026-02-22)
 
-### Changes
+### Changed
 
 - update `matterModels` with model `H61D5` (#1237) (@R-STR)
 - use `reuseAddr` to prevent `EADDRINUSE` on restart
@@ -12,7 +19,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 ## v11.15.0 (2026-02-16)
 
-### Changes
+### Changed
 
 - mark `H600B` as matter-enabled for ignore (#1224) (@pgib)
 - fix BLE control characteristic UUID regression (#1208) (@duggan)
@@ -26,7 +33,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 ## v11.14.0 (2025-12-28)
 
-### Changes
+### Changed
 
 - add `H600D` to native matter models (#1213) (@R-STR)
 - add support for `H8015` light bulb (#1221) (@zionsnider)
@@ -37,28 +44,28 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 ## v11.13.0 (2025-12-15)
 
-### Changes
+### Changed
 
 - new light model: `H6871`
 - dependency updates
 
 ## v11.12.1 (2025-12-05)
 
-### Changes
+### Changed
 
 - update workflows and npm publish via oidc
 - dependency updates
 
 ## v11.12.0 (2025-11-30)
 
-### Changes
+### Changed
 
 - add support for `H80C5` lights
 - fix `DEP0187` deprecation warning retry
 
 ## v11.11.0 (2025-11-29)
 
-### Changes
+### Changed
 
 - update readme badges (use `shields.io`)
 - feat: add support for `H6671` and `H6672` (#1200) (@fish-sammy)
@@ -724,7 +731,7 @@ See the first section of the updated wiki document for instructions:
 **Kettle Users**
 Unfortunately this update will break your kettle. This is something I am working on and will hopefully be fixed soon.
 
-### Changes
+### Changed
 
 - General fixes
 - Bump `node` recommended versions to v14.21.2 or v16.19.0 or v18.13.0
@@ -1827,7 +1834,7 @@ See ⚠️ for potentially-breaking changes.
 
 ## v3.3.2 (2021-07-08)
 
-### Changes
+### Changed
 
 - Revert node version bump to v14.17.3 (back to v14.17.2)
 
