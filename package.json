@@ -1,5 +1,5 @@
 {
-  "name": "@homebridge-plugins/homebridge-govee",
+  "name": "homebridge-govee",
   "displayName": "Govee",
   "alias": "Govee",
   "type": "module",
