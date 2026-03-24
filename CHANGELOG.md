@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - dependency updates + maintenance
+- fix: http setup call connection properties
 
 ## v11.17.0 (2026-02-27)
 
