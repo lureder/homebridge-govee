@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 - dependency updates + maintenance
 - fix: http setup call connection properties
+- added various new models, updated matter ignore list
 
 ## v11.17.0 (2026-02-27)
 
