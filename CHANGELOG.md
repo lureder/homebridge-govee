@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 - support `H1401` light model
 - fix ble client error on close if not initialised
+- dependency updates
 
 ## v11.18.0 (2026-03-24)
 
