@@ -4,11 +4,16 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 ## v11.18.1 (Pending Release)
 
+### Added
+
+- Add Govee OpenAPI support and API key config (#1252)
+- support `H1401` light model
+
 ### Changed
 
-- support `H1401` light model
 - fix ble client error on close if not initialised
 - dependency updates
+- various fixes and improvements
 
 ## v11.18.0 (2026-03-24)
 
