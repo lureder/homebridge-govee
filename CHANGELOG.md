@@ -16,6 +16,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - various fixes and improvements
 - fix missing device file for `H7149` humidifier
 - remove support for node `v20`
+- fix http login
 
 ## v11.18.0 (2026-03-24)
 
