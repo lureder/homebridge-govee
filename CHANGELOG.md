@@ -14,6 +14,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix ble client error on close if not initialised
 - dependency updates
 - various fixes and improvements
+- fix missing device file for `H7149` humidifier
 
 ## v11.18.0 (2026-03-24)
 
