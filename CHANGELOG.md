@@ -4,6 +4,10 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 ## v11.19.1 (Release Pending)
 
+### Added
+
+- feat: send + receive commands via openapi
+
 ### Changed
 
 - fix: string radix in fakegato toString call

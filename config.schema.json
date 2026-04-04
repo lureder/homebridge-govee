@@ -96,6 +96,21 @@
           "functionBody": "return (!model.lanDisable);"
         }
       },
+      "openApiDisable": {
+        "title": "Disable OpenAPI",
+        "type": "boolean",
+        "description": "If enabled, the plugin will not set up OpenAPI discovery and control."
+      },
+      "openApiRefreshTime": {
+        "title": "OpenAPI Refresh Interval",
+        "type": "integer",
+        "description": "An interval (in seconds) in which your OpenAPI devices will refresh with the plugin. Must be 30 or more. Only applies to devices without an active AWS connection.",
+        "placeholder": 30,
+        "minimum": 30,
+        "condition": {
+          "functionBody": "return (!model.openApiDisable);"
+        }
+      },
       "bleControlInterval": {
         "title": "BLE Control Interval",
         "type": "integer",
@@ -1469,6 +1484,8 @@
         "lanDisable",
         "lanRefreshTime",
         "lanScanInterval",
+        "openApiDisable",
+        "openApiRefreshTime",
         "bleControlInterval",
         "colourSafeMode"
       ]

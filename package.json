@@ -59,6 +59,7 @@
     "@homebridge/plugin-ui-utils": "^2.2.3",
     "aws-iot-device-sdk": "^2.2.16",
     "axios": "^1.14.0",
+    "mqtt": "^5.12.1",
     "node-persist": "^4.0.4",
     "node-rsa": "^1.1.1",
     "p-queue": "^9.1.1",
