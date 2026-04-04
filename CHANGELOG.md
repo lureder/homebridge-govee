@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 - fix: string radix in fakegato toString call
 - fix: fakegato unsubscribe removing wrong service
+- fix: fakegato immediate callback missing averaging
 
 ## v11.19.0 (2026-04-04)
 
