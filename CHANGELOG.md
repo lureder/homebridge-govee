@@ -2,11 +2,17 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.19.1 (Release Pending)
+
+### Changed
+
+- fix: string radix in fakegato toString call
+
 ## v11.19.0 (2026-04-04)
 
 ### Added
 
-- Add Govee OpenAPI support and API key config (#1252)
+- Add Govee OpenAPI support and API key config (#1252) (@asisosahan)
 - support `H1401` light model
 
 ### Changed
