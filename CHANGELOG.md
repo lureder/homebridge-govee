@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.20.1 (Pending Release)
+
+### Changed
+
+- refactor: add `ble-protocol.js` constants module and replace magic hex values in BLE commands
+
 ## v11.20.0 (2026-04-05)
 
 ### Added
