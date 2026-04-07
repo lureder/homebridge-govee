@@ -9,6 +9,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: add `ble-protocol.js` constants module and replace magic hex values in BLE commands
 - refactor: add `device-capabilities.js` for per-model protocol overrides
 - fix: use per-model `cmdVersion` for AWS status requests
+- fix: use per-model BLE write characteristic UUID
 
 ## v11.20.0 (2026-04-05)
 
