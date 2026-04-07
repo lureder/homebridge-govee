@@ -19,6 +19,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: color temp BLE command for extended color models
 - fix: guard against undefined command values in `ptReal`
 - fix: consolidate device quirk lists
+- chore: dependency updates
 
 ## v11.20.0 (2026-04-05)
 
