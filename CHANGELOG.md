@@ -18,6 +18,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add ice size selection for ice makers
 - fix: color temp BLE command for extended color models
 - fix: guard against undefined command values in `ptReal`
+- fix: consolidate device quirk lists
 
 ## v11.20.0 (2026-04-05)
 
