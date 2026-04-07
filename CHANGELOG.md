@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: add `device-capabilities.js` for per-model protocol overrides
 - fix: use per-model `cmdVersion` for AWS status requests
 - fix: use per-model BLE write characteristic UUID
+- refactor: extract command builder from `sendDeviceUpdate()`
 
 ## v11.20.0 (2026-04-05)
 
