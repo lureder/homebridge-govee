@@ -17,6 +17,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add nightlight control for purifiers H7122, H7123, H7124
 - feat: add ice size selection for ice makers
 - fix: color temp BLE command for extended color models
+- fix: guard against undefined command values in `ptReal`
 
 ## v11.20.0 (2026-04-05)
 
