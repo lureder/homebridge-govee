@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - refactor: add `ble-protocol.js` constants module and replace magic hex values in BLE commands
+- refactor: add `device-capabilities.js` for per-model protocol overrides
 
 ## v11.20.0 (2026-04-05)
 
