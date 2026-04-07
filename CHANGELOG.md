@@ -14,6 +14,8 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: extract response parser from `receiveDeviceUpdate()`
 - refactor: use unitless integer speed for fans, humidifiers, and dehumidifiers
 - feat: add auto mode as highest speed step for all fans
+- feat: add nightlight control for purifiers H7122, H7123, H7124
+- feat: add ice size selection for ice makers
 
 ## v11.20.0 (2026-04-05)
 
