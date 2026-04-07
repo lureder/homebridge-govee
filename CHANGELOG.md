@@ -13,6 +13,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: extract command builder from `sendDeviceUpdate()`
 - refactor: extract response parser from `receiveDeviceUpdate()`
 - refactor: use unitless integer speed for fans, humidifiers, and dehumidifiers
+- feat: add auto mode as highest speed step for all fans
 
 ## v11.20.0 (2026-04-05)
 
