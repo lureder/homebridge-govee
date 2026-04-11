@@ -24,12 +24,24 @@
         "title": "Govee Password",
         "description": "Required for certain light models. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices\" target=\"_blank\">Read more →</a>"
       },
+      "code": {
+        "type": "string",
+        "title": "Govee 2FA Code",
+        "description": "The first time the plugin tries to login, it might send a code to your email address. The code is valid for 15 minutes. <a href=\"https://github.com/homebridge-plugins/homebridge-govee/wiki/AWS-Control\" target=\"_blank\">Read more →</a>",
+        "pattern": "^\\d{4}$",
+        "functionBody": "return (model.username && model.password);"
+      },
+      "apiKey": {
+        "type": "string",
+        "title": "Govee OpenAPI Key",
+        "description": "Optional. Used for Govee OpenAPI discovery/state/control when available. This is separate from the app login used for AWS/BLE connections."
+      },
       "ignoreMatter": {
         "type": "boolean",
         "title": "Ignore Matter Devices",
         "description": "If enabled, the plugin will not set up Matter-enabled models.",
         "condition": {
-          "functionBody": "return (model.username && model.password);"
+          "functionBody": "return ((model.username && model.password) || model.apiKey);"
         }
       },
       "httpRefreshTime": {
@@ -82,6 +94,21 @@
         "minimum": 30,
         "condition": {
           "functionBody": "return (!model.lanDisable);"
+        }
+      },
+      "openApiDisable": {
+        "title": "Disable OpenAPI",
+        "type": "boolean",
+        "description": "If enabled, the plugin will not set up OpenAPI discovery and control."
+      },
+      "openApiRefreshTime": {
+        "title": "OpenAPI Refresh Interval",
+        "type": "integer",
+        "description": "An interval (in seconds) in which your OpenAPI devices will refresh with the plugin. Must be 30 or more. Only applies to devices without an active AWS connection.",
+        "placeholder": 30,
+        "minimum": 30,
+        "condition": {
+          "functionBody": "return (!model.openApiDisable);"
         }
       },
       "bleControlInterval": {
@@ -1437,7 +1464,9 @@
       "title": "Required Settings",
       "items": [
         "username",
-        "password"
+        "password",
+        "code",
+        "apiKey"
       ]
     },
     {
@@ -1455,6 +1484,8 @@
         "lanDisable",
         "lanRefreshTime",
         "lanScanInterval",
+        "openApiDisable",
+        "openApiRefreshTime",
         "bleControlInterval",
         "colourSafeMode"
       ]

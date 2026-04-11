@@ -44,7 +44,14 @@
 <div id="pageIntro" class="text-center" style="display: none;">
   <p class="lead">Thank you for installing <strong>homebridge-govee</strong></p>
   <p>
-    You will need your Govee email & password to continue - this plugin does not need a Govee API key
+    Enter your Govee credentials and/or your Govee OpenAPI key on the following page.
+  </p>
+  <p style="font-size: 0.85rem;">
+    Govee may email you with a code the first time the plugin tries to log you in (if you have provided your Govee credentials).
+    Please <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/AWS-Control" target="_blank">read this process</a> before continuing if you plan to provide your credentials.
+  </p>
+  <p style="font-size: 0.85rem;">
+    The OpenAPI key is optional and can be used for OpenAPI discovery, state, and control where supported.
   </p>
   <button type="button" class="btn btn-primary" id="introContinue">Continue &rarr;</button>
 </div>
@@ -60,6 +67,10 @@
   <button type="button" class="btn btn-primary mr-0" id="menuHome">Support</button>
 </div>
 <div id="pageDevices" class="mt-4" style="display: none;">
+  <div id="connectionOverview" style="display: none; margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #dee2e6; border-radius: 0.375rem;">
+    <h6 style="margin-bottom: 0.75rem; font-weight: 600;">Connection Overview</h6>
+    <div id="connSummary" style="font-size: 0.85rem;"></div>
+  </div>
   <div id="deviceInfo">
     <form>
       <div class="form-group">
@@ -105,6 +116,14 @@
         <tr id="row_ble_name" style="display: none;">
           <th scope="row">Bluetooth Name</th>
           <td id="ble_name"></td>
+        </tr>
+        <tr>
+          <th scope="row">OpenAPI Supported</th>
+          <td id="openapi_supported"></td>
+        </tr>
+        <tr id="row_openapi_enabled" style="display: none;">
+          <th scope="row">OpenAPI Enabled</th>
+          <td id="openapi_enabled"></td>
         </tr>
         <tr>
           <th scope="row">LAN Supported</th>
@@ -323,6 +342,28 @@
               : 0
           })
         }
+        // Build connection overview
+        if (cachedAccessories.length > 0) {
+          const counts = { lan: 0, aws: 0, openapi: 0, ble: 0 }
+          cachedAccessories.forEach(a => {
+            if (a.context.useLanControl) counts.lan++
+            if (a.context.useAwsControl) counts.aws++
+            if (a.context.useOpenApiControl) counts.openapi++
+            if (a.context.useBleControl) counts.ble++
+          })
+          const active = []
+          if (counts.lan > 0) active.push(`LAN (${counts.lan})`)
+          if (counts.aws > 0) active.push(`AWS (${counts.aws})`)
+          if (counts.openapi > 0) active.push(`OpenAPI (${counts.openapi})`)
+          if (counts.ble > 0) active.push(`BLE (${counts.ble})`)
+          const lines = []
+          lines.push(`<strong>Active connections:</strong> ${active.length > 0 ? active.join(', ') : 'None'}`)
+          lines.push(`<strong>Send priority:</strong> LAN &rarr; AWS &rarr; OpenAPI &rarr; BLE`)
+          lines.push(`<strong>Total devices:</strong> ${cachedAccessories.length}`)
+          document.getElementById('connSummary').innerHTML = lines.join('<br>')
+          document.getElementById('connectionOverview').style.display = 'block'
+        }
+
         const deviceSelect = document.getElementById('deviceSelect')
         deviceSelect.innerHTML = ''
         cachedAccessories.forEach(a => {
@@ -359,6 +400,14 @@
             document.getElementById('row_ble_enabled').style.display = 'none'
             document.getElementById('row_ble_address').style.display = 'none'
             document.getElementById('row_ble_name').style.display = 'none'
+          }
+          if (context.hasOpenApiControl) {
+            document.getElementById('openapi_supported').innerHTML = 'Yes'
+            document.getElementById('openapi_enabled').innerHTML = context.useOpenApiControl ? 'Yes' : 'No'
+            document.getElementById('row_openapi_enabled').style.display = 'table-row'
+          } else {
+            document.getElementById('openapi_supported').innerHTML = 'No'
+            document.getElementById('row_openapi_enabled').style.display = 'none'
           }
           if (context.hasLanControl) {
             document.getElementById('lan_supported').innerHTML = 'Yes'

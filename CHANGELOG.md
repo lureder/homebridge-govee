@@ -2,7 +2,62 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
-## v11.17.0 (2027-02-27)
+## v11.21.0 (2026-04-09)
+
+### Changed
+
+- refactor: add `ble-protocol.js` constants module and replace magic hex values in BLE commands
+- refactor: add `device-capabilities.js` for per-model protocol overrides
+- fix: use per-model `cmdVersion` for AWS status requests
+- fix: use per-model BLE write characteristic UUID
+- refactor: extract command builder from `sendDeviceUpdate()`
+- refactor: extract response parser from `receiveDeviceUpdate()`
+- refactor: use unitless integer speed for fans, humidifiers, and dehumidifiers
+- feat: add auto mode as highest speed step for all fans
+- feat: add nightlight control for purifiers H7122, H7123, H7124
+- feat: add ice size selection for ice makers
+- fix: color temp BLE command for extended color models
+- fix: guard against undefined command values in `ptReal`
+- fix: consolidate device quirk lists
+- chore: dependency updates
+
+## v11.20.0 (2026-04-05)
+
+### Added
+
+- feat: send + receive commands via openapi
+
+### Changed
+
+- fix: string radix in fakegato toString call
+- fix: fakegato unsubscribe removing wrong service
+- fix: fakegato immediate callback missing averaging
+
+## v11.19.0 (2026-04-04)
+
+### Added
+
+- Add Govee OpenAPI support and API key config (#1252) (@asisosahan)
+- support `H1401` light model
+
+### Changed
+
+- fix ble client error on close if not initialised
+- dependency updates
+- various fixes and improvements
+- fix missing device file for `H7149` humidifier
+- remove support for node `v20`
+- fix http login
+
+## v11.18.0 (2026-03-24)
+
+### Changed
+
+- dependency updates + maintenance
+- fix: http setup call connection properties
+- added various new models, updated matter ignore list
+
+## v11.17.0 (2026-02-27)
 
 ### Changed
 
