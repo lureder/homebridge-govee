@@ -12,6 +12,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: added command builder for openapi
 - chore: dependency updates
 - fix: enable debug logging on ice-maker devices
+- feat: add 'on base' contact sensor for kettle
 
 ## v11.21.0 (2026-04-09)
 
