@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - fix: add missing device files for ice-maker
+- fix: move `H5107` and `H5171` to thermo-sensors
 
 ## v11.21.0 (2026-04-09)
 
