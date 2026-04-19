@@ -71,6 +71,6 @@
     "@stoprocent/noble": "^2.4.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^8.1.1"
+    "@antfu/eslint-config": "^8.2.0"
   }
 }
