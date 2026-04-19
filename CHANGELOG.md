@@ -9,6 +9,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: add missing device files for ice-maker
 - fix: move `H5107` and `H5171` to thermo-sensors
 - fix: remove duplicate `H60B0` from device list
+- feat: added command builder for openapi
 
 ## v11.21.0 (2026-04-09)
 
