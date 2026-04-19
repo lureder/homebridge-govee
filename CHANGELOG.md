@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: remove duplicate `H60B0` from device list
 - feat: added command builder for openapi
 - chore: dependency updates
+- fix: enable debug logging on ice-maker devices
 
 ## v11.21.0 (2026-04-09)
 
