@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.21.1 (Pending Release)
+
+### Changed
+
+- fix: add missing device files for ice-maker
+
 ## v11.21.0 (2026-04-09)
 
 ### Changed
