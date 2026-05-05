@@ -13,6 +13,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: dependency updates
 - fix: enable debug logging on ice-maker devices
 - feat: add 'on base' contact sensor for kettle
+- chore: dependency updates
 
 ## v11.21.0 (2026-04-09)
 
