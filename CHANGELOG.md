@@ -2,6 +2,19 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.22.0 (2026-05-05)
+
+### Changed
+
+- fix: add missing device files for ice-maker
+- fix: move `H5107` and `H5171` to thermo-sensors
+- fix: remove duplicate `H60B0` from device list
+- feat: added command builder for openapi
+- chore: dependency updates
+- fix: enable debug logging on ice-maker devices
+- feat: add 'on base' contact sensor for kettle
+- chore: dependency updates
+
 ## v11.21.0 (2026-04-09)
 
 ### Changed
