@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: dependency updates
 - fix: self-heal invalid TTR token without full re-login
 - chore: fix deprecation workflow script
+- feat: add H8025 light model
 
 ## v11.22.0 (2026-05-05)
 
