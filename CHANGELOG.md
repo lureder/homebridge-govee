@@ -2,6 +2,17 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.23.0 (2026-05-16)
+
+### Changes
+
+- feat: add support for Floor Lamp H16B0 and Table Lamp H1741 (#1279) (@gzimbric)
+- feat: add H5140 Smart CO2 Monitor support (closes #1179) (#1281) (@itskevinb)
+- chore: dependency updates
+- fix: self-heal invalid TTR token without full re-login
+- chore: fix deprecation workflow script
+- feat: add H8025 light model
+
 ## v11.22.0 (2026-05-05)
 
 ### Changed
