@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 - feat: add support for Lantern Floor Lamp H1630 (@alexjsp)
 - feat: add support for various new models
+- fix: ignore undefined battery values to stop characteristic warnings (#1266)
 
 ## v11.23.0 (2026-05-16)
 
