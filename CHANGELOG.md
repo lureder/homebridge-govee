@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.26.1 (Pending Release)
+
+### Changes
+
+- fix: report leak events relayed by a wifi gateway over AWS (#1276)
+
 ## v11.26.0 (2026-07-12)
 
 ### Changes
