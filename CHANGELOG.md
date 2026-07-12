@@ -14,6 +14,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: hide matter devices when ignoreMatter is enabled (#1287)
 - feat: add H70C5 to the matter exclusion list (#1300)
 - fix: clearer error when Govee login returns no token
+- chore: update actions/checkout to v7
 
 ## v11.24.0 (2026-05-31)
 
