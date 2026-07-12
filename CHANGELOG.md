@@ -18,6 +18,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: dependency updates
 - fix: show temperature on the HomeKit tile for sensors
 - feat: add support for new light models
+- chore: allow install scripts for native BLE/USB dependencies
 
 ## v11.24.0 (2026-05-31)
 
