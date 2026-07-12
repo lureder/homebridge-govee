@@ -6,7 +6,11 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 ### Changes
 
-- feat: add support for Edison Bulb H14C0 (#1301)
+- fix: parse water leak detection from the openapi response (#1276) (#1312) (@dev-d)
+- feat: add support for the Edison Bulb H14C0 (#1302) (@starrlord)
+- feat: add support for the H1270 ceiling light with independent zone control (#1306) (@x86txt)
+- fix: H7111 HomeKit rotation speed percentage mapping (#1310) (@u2jrmw)
+- fix: clamp H7123 air quality to HomeKit range (#1261)
 
 ## v11.24.0 (2026-05-31)
 
