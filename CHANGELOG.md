@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 - feat: add support for the H609D Galaxy Light Projector (#1298)
 - fix: never remove accessories based on a failed device fetch (#1264)
+- fix: skip Govee app device groups from the OpenAPI device list (#1309)
 
 ## v11.25.0 (2026-07-12)
 
