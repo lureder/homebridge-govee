@@ -13,6 +13,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: clamp H7123 air quality to HomeKit range (#1261)
 - fix: hide matter devices when ignoreMatter is enabled (#1287)
 - feat: add H70C5 to the matter exclusion list (#1300)
+- fix: clearer error when Govee login returns no token
 
 ## v11.24.0 (2026-05-31)
 
