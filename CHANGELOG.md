@@ -16,6 +16,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: clearer error when Govee login returns no token
 - chore: update actions/checkout to v7
 - chore: dependency updates
+- fix: show temperature on the HomeKit tile for sensors
 
 ## v11.24.0 (2026-05-31)
 
