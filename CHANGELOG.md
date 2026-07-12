@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: skip Govee app device groups from the OpenAPI device list (#1309)
 - feat: add under-construction support for the H1370 fan (#1307)
 - fix: use the segment-based BLE colour command for the H617E (#1290)
+- fix: send the on command first so scenes from off apply their colour (#1277)
 
 ## v11.25.0 (2026-07-12)
 
