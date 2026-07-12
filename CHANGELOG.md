@@ -15,6 +15,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add H70C5 to the matter exclusion list (#1300)
 - fix: clearer error when Govee login returns no token
 - chore: update actions/checkout to v7
+- chore: dependency updates
 
 ## v11.24.0 (2026-05-31)
 

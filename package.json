@@ -56,21 +56,21 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@homebridge/plugin-ui-utils": "^2.2.4",
+    "@homebridge/plugin-ui-utils": "^2.2.5",
     "aws-iot-device-sdk": "^2.2.16",
-    "axios": "^1.16.1",
-    "mqtt": "^5.12.1",
+    "axios": "^1.18.1",
+    "mqtt": "^5.15.2",
     "node-persist": "^4.0.4",
     "node-rsa": "^2.0.0",
-    "p-queue": "^9.3.0",
+    "p-queue": "^9.3.1",
     "patch-package": "^8.0.1",
     "pem": "^1.14.8"
   },
   "optionalDependencies": {
     "@stoprocent/bluetooth-hci-socket": "^2.2.6",
-    "@stoprocent/noble": "^2.5.3"
+    "@stoprocent/noble": "^2.5.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.0.0"
+    "@antfu/eslint-config": "^9.1.0"
   }
 }
