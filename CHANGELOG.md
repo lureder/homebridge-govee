@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.26.0 (Pending Release)
+
+### Changes
+
+- feat: add support for the H609D Galaxy Light Projector (#1298)
+
 ## v11.25.0 (2026-07-12)
 
 ### Changes
