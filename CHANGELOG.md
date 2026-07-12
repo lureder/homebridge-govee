@@ -12,6 +12,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: H7111 HomeKit rotation speed percentage mapping (#1310) (@u2jrmw)
 - fix: clamp H7123 air quality to HomeKit range (#1261)
 - fix: hide matter devices when ignoreMatter is enabled (#1287)
+- feat: add H70C5 to the matter exclusion list (#1300)
 
 ## v11.24.0 (2026-05-31)
 
