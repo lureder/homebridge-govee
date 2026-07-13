@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.27.1 (Pending Release)
+
+### Changed
+
+- fix: do not treat lights controllable via the openapi as bluetooth only (#1263) (@methodicallychaotic)
+
 ## v11.27.0 (2026-07-13)
 
 ### Changes
