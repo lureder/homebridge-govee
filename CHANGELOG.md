@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - fix: do not treat lights controllable via the openapi as bluetooth only (#1263) (@methodicallychaotic)
+- fix: do not initialise matter-ignored devices found on the lan (#1315)
 
 ## v11.27.0 (2026-07-13)
 
