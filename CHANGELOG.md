@@ -12,6 +12,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: remove the looking-for-maintainers message
 - fix: restore the online status update helper for thermo and leak sensors (#1317)
 - fix: skip app device groups found in the http device list (#1317)
+- fix: only treat fresh real-time gateway records as leak events, not periodic sync records (#1314)
 
 ## v11.27.0 (2026-07-13)
 
