@@ -1,0 +1,29 @@
+name: 🆕 New Device/Model Request
+description: For when you see the 'is not currently supported' message.
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Which model is this?
+      description: I need the `Hxxxx` number, which you can find in the Govee app or on the product page.
+    validations:
+      required: true
+  - type: input
+    id: device-type
+    attributes:
+      label: Which type of device is this?
+      description: Light, heater, leak sensor, etc.
+    validations:
+      required: true
+  - type: checkboxes
+    id: connection-methods
+    attributes:
+      label: Which connection methods does this device have?
+      options:
+        - label: Wi-Fi
+        - label: Bluetooth
+        - label: LAN mode
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
