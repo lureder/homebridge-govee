@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changes
 
 - feat: add fan and light control for the H1370 ceiling fan (#1307)
+- feat: add support for the new R-prefix light and fan models (#1313)
 
 ## v11.26.1 (2026-07-12)
 
