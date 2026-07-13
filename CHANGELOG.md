@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.27.0 (Pending Release)
+
+### Changes
+
+- feat: add fan and light control for the H1370 ceiling fan (#1307)
+
 ## v11.26.1 (2026-07-12)
 
 ### Changes
