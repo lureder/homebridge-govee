@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: do not initialise matter-ignored devices found on the lan (#1315)
 - fix: never pass external accessories to the homebridge cache so saving no longer fails
 - chore: remove the looking-for-maintainers message
+- fix: restore the online status update helper for thermo and leak sensors (#1317)
 
 ## v11.27.0 (2026-07-13)
 
