@@ -2,12 +2,13 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
-## v11.27.2 (Pending Release)
+## v11.28.0 (Pending Release)
 
 ### Changed
 
 - fix: use the sender address when a lan scan response omits the ip field (#1313) (@seandavidtm)
 - chore(github): update the setup-node action to v7
+- feat: add support for the G25 Edison Bulb H14C1 (#1319) (@nextdaytech)
 
 ## v11.27.1 (2026-07-15)
 
