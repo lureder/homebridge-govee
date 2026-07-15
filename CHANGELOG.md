@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - fix: use the sender address when a lan scan response omits the ip field (#1313) (@seandavidtm)
+- chore(github): update the setup-node action to v7
 
 ## v11.27.1 (2026-07-15)
 
