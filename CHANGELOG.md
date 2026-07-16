@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.29.0 (Pending Release)
+
+### Changed
+
+- feat: add support for the H801D downlight (#1320) (@kwameasannte42)
+
 ## v11.28.0 (2026-07-15)
 
 ### Changed
