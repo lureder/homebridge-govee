@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.29.2 (Pending Release)
+
+### Changed
+
+- fix: update `allowScripts` with update ble lib
+
 ## v11.29.1 (2026-07-18)
 
 ### Changed
