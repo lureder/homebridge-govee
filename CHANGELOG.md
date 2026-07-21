@@ -9,6 +9,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore(ble): let noble apply its own adapter timeout instead of racing a second one
 - fix: restore aws brightness scaling, so lights reach the brightness asked for (#1262) (@gradyg21)
 - fix: skip a periodic sync when the previous one is still running, so slow responses stop stacking up (#1256) (@schwaggy)
+- fix: work out whether the openapi sensor temperature is celsius or fahrenheit, so thermometers no longer read too high (#1269) (@tdporter)
 
 ## v11.29.3 (2026-07-21)
 

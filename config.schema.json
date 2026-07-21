@@ -1143,6 +1143,35 @@
                 "functionBody": "return (model.thermoDevices && model.thermoDevices[arrayIndices] && model.thermoDevices[arrayIndices].deviceId && [23,26].includes(model.thermoDevices[arrayIndices].deviceId.length) && !model.thermoDevices[arrayIndices].ignoreDevice);"
               }
             },
+            "openApiTempUnit": {
+              "type": "string",
+              "title": "OpenAPI Temperature Unit",
+              "description": "Govee's OpenAPI reports the temperature in whatever unit your Govee app is set to, without saying which. Leave this on Auto and the plugin will work it out. Only set it manually if the reported temperature is wrong.",
+              "default": "auto",
+              "oneOf": [
+                {
+                  "title": "Auto (Recommended)",
+                  "enum": [
+                    "auto"
+                  ]
+                },
+                {
+                  "title": "Celsius",
+                  "enum": [
+                    "c"
+                  ]
+                },
+                {
+                  "title": "Fahrenheit",
+                  "enum": [
+                    "f"
+                  ]
+                }
+              ],
+              "condition": {
+                "functionBody": "return (model.thermoDevices && model.thermoDevices[arrayIndices] && model.thermoDevices[arrayIndices].deviceId && [23,26].includes(model.thermoDevices[arrayIndices].deviceId.length) && !model.thermoDevices[arrayIndices].ignoreDevice);"
+              }
+            },
             "showExtraSwitch": {
               "type": "boolean",
               "title": "Show Extra Switch",
@@ -1625,6 +1654,7 @@
             "thermoDevices[].deviceId",
             "thermoDevices[].ignoreDevice",
             "thermoDevices[].lowBattThreshold",
+            "thermoDevices[].openApiTempUnit",
             "thermoDevices[].showExtraSwitch"
           ]
         }
