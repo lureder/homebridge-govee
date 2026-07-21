@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.29.3 (2026-07-21)
+
+### Changed
+
+- chore: log the raw sensor payload to diagnose thermometers reading too high (#1269)
+
 ## v11.29.2 (2026-07-18)
 
 ### Changed
