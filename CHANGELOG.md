@@ -2,11 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
-## v11.29.4 (Pending Release)
+## v11.30.0 (Pending Release)
 
 ### Changed
 
 - chore(ble): let noble apply its own adapter timeout instead of racing a second one
+- fix: restore aws brightness scaling, so lights reach the brightness asked for (#1262) (@gradyg21)
 
 ## v11.29.3 (2026-07-21)
 
