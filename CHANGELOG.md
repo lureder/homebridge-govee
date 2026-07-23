@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.30.1 (Pending Release)
+
+### Changed
+
+- fix: use 0-100 aws brightness for h1401 and h6008, so they stop jumping to full or 1% (#1321) (@rroach3753)
+
 ## v11.30.0 (2026-07-21)
 
 ### Changed
