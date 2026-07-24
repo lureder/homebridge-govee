@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.31.0 (Pending Release)
+
+### Added
+
+- feat(lan): add a `lanScanSubnets` option to scan given subnets directly, so lan devices on a different subnet from homebridge can be found (#1323)
+
 ## v11.30.1 (2026-07-23)
 
 ### Changed

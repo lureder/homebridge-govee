@@ -96,6 +96,15 @@
           "functionBody": "return (!model.lanDisable);"
         }
       },
+      "lanScanSubnets": {
+        "title": "LAN Scan Subnets",
+        "type": "string",
+        "description": "Optional. Only needed if your Govee devices are on a different subnet/VLAN from Homebridge. LAN discovery normally uses multicast, which routers do not pass between subnets. Enter one or more subnets in CIDR form (e.g. 192.168.20.0/24), separated by commas, and the plugin will also scan those directly. Requires the devices to have LAN control enabled.",
+        "placeholder": "192.168.20.0/24",
+        "condition": {
+          "functionBody": "return (!model.lanDisable);"
+        }
+      },
       "openApiDisable": {
         "title": "Disable OpenAPI",
         "type": "boolean",
@@ -1513,6 +1522,7 @@
         "lanDisable",
         "lanRefreshTime",
         "lanScanInterval",
+        "lanScanSubnets",
         "openApiDisable",
         "openApiRefreshTime",
         "bleControlInterval",
