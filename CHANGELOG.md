@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.31.1 (Pending Release)
+
+### Changed
+
+- chore(github): use the shared homebridge action to deprecate past pre-releases
+
 ## v11.31.0 (2026-07-24)
 
 ### Added
