@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 
 - chore(github): use the shared homebridge action to deprecate past pre-releases
 - feat(ui): hide or show a device in homekit from the my devices tab
+- chore(deps): dependency updates
 
 ## v11.31.0 (2026-07-24)
 
