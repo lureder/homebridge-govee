@@ -2,11 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
-## v11.31.1 (Pending Release)
+## v11.32.0 (Pending Release)
 
 ### Changed
 
 - chore(github): use the shared homebridge action to deprecate past pre-releases
+- feat(ui): hide or show a device in homekit from the my devices tab
 
 ## v11.31.0 (2026-07-24)
 
