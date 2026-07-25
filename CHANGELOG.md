@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat(ui): hide or show a device in homekit from the my devices tab
 - chore(deps): dependency updates
 - style(ui): standardise the custom ui layout and sync the support tab with the readme
+- chore(deps): override help-me to v5 to clear the high brace-expansion security advisory from the aws-iot dependency chain
 
 ## v11.31.0 (2026-07-24)
 
