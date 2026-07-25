@@ -219,138 +219,69 @@
     </table>
   </div>
 </div>
-<div id="pageSupport" class="mt-4" style="display: none;">
+<div id="pageSupport" class="mt-4" style="display: none">
   <p class="text-center lead">Thank you for using <strong>homebridge-govee</strong></p>
-  <p class="text-center">The links below will take you to our GitHub wiki</p>
-  <h4>Setup</h4>
+  <h5>Plugin Information</h5>
+<ul>
+  <li>This plugin allows you to view and control your Govee devices within HomeKit. The plugin:</li>
   <ul>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Installation" target="_blank"
-        >Installation</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Configuration" target="_blank"
-        >Configuration</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/homebridge/homebridge/wiki/How-to-Install-Alternate-Plugin-Versions" target="_blank"
-        >Beta Version</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Node-Version" target="_blank"
-        >Node Version</a
-      >
-    </li>
+    <li>supports Govee OpenAPI discovery/state/control when an OpenAPI key is provided</li>
+    <li>requires your Govee credentials for most Cloud/AWS/BLE connections</li>
+    <li>can control certain models locally via LAN control without any Govee credentials</li>
+    <li>may use different connection methods depending on device model and account capabilities</li>
   </ul>
-  <h4>Features</h4>
+</ul>
+  <h5>Prerequisites</h5>
+<ul>
+  <li>To use this plugin, you will need to already have:</li>
   <ul>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices" target="_blank"
-        >Supported Devices</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Connection-Methods" target="_blank"
-        >Connection Methods</a
-      >
-    </li>
-    <ul>
-      <li>
-        <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/LAN-Control" target="_blank"
-        >LAN Control</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/API-Control" target="_blank"
-          >API Control</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/AWS-Control" target="_blank"
-          >AWS Control</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Bluetooth-Control" target="_blank"
-          >BLE Control</a
-        >
-      </li>
-    </ul>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Scene%2C-Music%2C-DIY-Modes" target="_blank"
-        >Scene, Music, DIY Modes</a
-      >
-    </li>
+    <li><a href="https://nodejs.org" target="_blank">Node</a>: latest version of <code>v22</code> or <code>v24</code> - any other major version is not supported.</li>
+    <li><a href="https://homebridge.io" target="_blank">Homebridge</a>: <code>v1.6</code> or above - refer to link for more information and installation instructions.</li>
+    <li>For bluetooth connectivity, it may be necessary to install extra packages on your system, see <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Bluetooth-Control" target="_blank">Bluetooth Control</a>. Bluetooth works best when using a Raspberry Pi, not been tested on Windows, and Mac devices are unsupported.</li>
   </ul>
-  <h4>Help/About</h4>
+</ul>
+  <h5>Setup</h5>
+<ul>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Installation" target="_blank">Installation</a></li>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Configuration" target="_blank">Configuration</a></li>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Beta-Version" target="_blank">Beta Version</a></li>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Node-Version" target="_blank">Node Version</a></li>
+</ul>
+  <h5>Features</h5>
+<ul>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Supported-Devices" target="_blank">Supported Devices</a></li>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Connection-Methods" target="_blank">Connection Methods</a></li>
   <ul>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Common-Errors" target="_blank"
-        >Common Errors</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/issues/new/choose" target="_blank"
-        >Support Request</a
-      >
-    </li>
-    <li>
-      <a href="https://github.com/homebridge-plugins/homebridge-govee/blob/latest/CHANGELOG.md" target="_blank"
-        >Changelog</a
-      >
-    </li>
-    <li><a href="https://github.com/sponsors/bwp91" target="_blank">About Me</a></li>
+    <li>OpenAPI Control</li>
+    <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/LAN-Control" target="_blank">LAN Control</a></li>
+    <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/AWS-Control" target="_blank">AWS Control</a></li>
+    <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Bluetooth-Control" target="_blank">BLE Control</a></li>
   </ul>
-  <h4>Credits</h4>
-  <ul>
-    <li>To all users who have shared their devices to enable functionality.</li>
-    <li>
-      To the creator/owner of the
-      <a href="https://www.npmjs.com/package/govee-led-client" target="_blank">govee-led-client</a>
-      library which made the bluetooth connection possible.
-    </li>
-    <li>
-      To the creator/owner of the
-      <a href="https://github.com/towlerj/govee_api" target="_blank">govee_api</a>
-      library which made the AWS connection possible.
-    </li>
-    <li>
-      To <a href="https://github.com/alboiuvlad29" target="_blank">@alboiuvlad29</a> who made the LAN connection possible.
-    </li>
-    <li>
-      To <a href="https://github.com/JeremyDunn" target="_blank">@JeremyDunn</a> for his code from
-      <a href="https://github.com/JeremyDunn/homebridge-govee-water-detectors" target="_blank"
-        >homebridge-govee-water-detectors</a
-      >
-      for leak sensor support.
-    </li>
-    <li>
-      To the creator/owner of the
-      <a href="https://www.npmjs.com/package/govee-bt-client" target="_blank"
-        >govee-bt-client</a
-      >
-      library which made the BLE connection to sensors possible.
-    </li>
-    <li>
-      To the creator of the awesome plugin header logo:
-      <a href="https://www.instagram.com/keryan.me" target="_blank">Keryan Belahcene</a>.
-    </li>
-    <li>
-      To the creators/contributors of
-      <a href="https://homebridge.io" target="_blank">Homebridge</a> who make this plugin possible.
-    </li>
-  </ul>
-  <h4>Disclaimer</h4>
-  <ul>
-    <li>
-      I am in no way affiliated with Govee and this plugin is a personal project that I maintain in
-      my free time.
-    </li>
-    <li>Use this plugin entirely at your own risk - please see licence for more information.</li>
-  </ul>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Scene%2C-Music%2C-DIY-Modes" target="_blank">Scene, Music, DIY Modes</a></li>
+</ul>
+  <h5>Help/About</h5>
+<ul>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/wiki/Common-Errors" target="_blank">Common Errors</a></li>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/issues/new/choose" target="_blank">Support Request</a></li>
+  <li><a href="https://github.com/homebridge-plugins/homebridge-govee/blob/latest/CHANGELOG.md" target="_blank">Changelog</a></li>
+  <li><a href="https://github.com/sponsors/bwp91" target="_blank">About Me</a></li>
+</ul>
+  <h5>Credits</h5>
+<ul>
+  <li>To all users who have shared their devices to enable functionality.</li>
+  <li>To the creator/owner of the <a href="https://www.npmjs.com/package/govee-led-client" target="_blank">govee-led-client</a> library which made the BLE connection possible.</li>
+  <li>To the creator/owner of the <a href="https://github.com/towlerj/govee_api" target="_blank">govee_api</a> library which made the AWS connection possible.</li>
+  <li>To <a href="https://github.com/alboiuvlad29" target="_blank">@alboiuvlad29</a> who made the LAN connection possible.</li>
+  <li>To <a href="https://github.com/JeremyDunn" target="_blank">@JeremyDunn</a> for his code from <a href="https://github.com/JeremyDunn/homebridge-govee-water-detectors" target="_blank">homebridge-govee-water-detectors</a> for leak sensor support.</li>
+  <li>To the creator/owner of the <a href="https://www.npmjs.com/package/govee-bt-client" target="_blank">govee-bt-client</a> library which made the BLE connection to sensors possible.</li>
+  <li>To the creator of the awesome plugin header logo: <a href="https://www.instagram.com/keryan.me" target="_blank">Keryan Belahcene</a>.</li>
+  <li>To the creators/contributors of <a href="https://homebridge.io" target="_blank">Homebridge</a> who make this plugin possible.</li>
+</ul>
+  <h5>Disclaimer</h5>
+<ul>
+  <li>I am in no way affiliated with Govee and this plugin is a personal project that I maintain in my free time.</li>
+  <li>Use this plugin entirely at your own risk - please see licence for more information.</li>
+</ul>
 </div>
 <script>
   ;(async () => {
