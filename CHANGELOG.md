@@ -13,6 +13,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore(deps): override help-me to v5 to clear the high brace-expansion security advisory from the aws-iot dependency chain
 - feat(ui): add a remove all devices action to the my devices tab (#1323)
 - feat: add support for the H5089 smart plug, exposing its outlet and built-in light as separate switches (#1323)
+- chore: declare the supports-hap transport keyword for the homebridge ui
 
 ## v11.31.0 (2026-07-24)
 
