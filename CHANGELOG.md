@@ -15,6 +15,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add support for the H5089 smart plug, exposing its outlet and built-in light as separate switches (#1323)
 - chore: declare the supports-hap transport keyword for the homebridge ui
 - feat: add support for the H60B3 uplighter as an rgb light (#1325)
+- feat: add support for the H5901 water timer through the govee openapi (#1324)
 
 ## v11.31.0 (2026-07-24)
 
