@@ -21,6 +21,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: decode the status codes a device reports into readable hex in debug mode, so support for new device features can be worked out from a normal log
 - feat: add the H5089 night light as a homekit light tile with on, off and brightness (#1323)
 - fix: send the H5089 night light commands as the newer ptIot type the plug listens for, instead of being silently ignored (#1323)
+- fix: also send the H5089 night light the command shape the supported govee purifiers use, since mirroring the plug's own status code was not enough on its own (#1323)
 
 ## v11.31.0 (2026-07-24)
 
