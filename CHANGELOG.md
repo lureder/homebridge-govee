@@ -17,6 +17,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add support for the H60B3 uplighter as an rgb light (#1325)
 - feat: add support for the H5901 water timer through the govee openapi (#1324)
 - fix(fans): map rotation speed as a percentage on every fan model, so homekit stops showing speeds like 7% and the top of the slider means full power (#1326)
+- chore: log what each device can do according to the govee openapi, in debug mode, to make working out new device support quicker
 
 ## v11.31.0 (2026-07-24)
 
