@@ -14,6 +14,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat(ui): add a remove all devices action to the my devices tab (#1323)
 - feat: add support for the H5089 smart plug, exposing its outlet and built-in light as separate switches (#1323)
 - chore: declare the supports-hap transport keyword for the homebridge ui
+- feat: add support for the H60B3 uplighter as an rgb light (#1325)
 
 ## v11.31.0 (2026-07-24)
 
