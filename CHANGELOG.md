@@ -19,6 +19,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix(fans): map rotation speed as a percentage on every fan model, so homekit stops showing speeds like 7% and the top of the slider means full power (#1326)
 - chore: log what each device can do according to the govee openapi, in debug mode, to make working out new device support quicker
 - chore: decode the status codes a device reports into readable hex in debug mode, so support for new device features can be worked out from a normal log
+- feat: add the H5089 night light as a homekit light tile with on, off and brightness (#1323)
 
 ## v11.31.0 (2026-07-24)
 
