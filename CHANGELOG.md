@@ -28,6 +28,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add support for the H3001 solar string lights as an rgb light (#1328)
 - docs(changelog): list every unreleased commit in the pending section
 - fix(fans): rebuild the fan service once when it was cached under the old speed scale, so the top of the slider stops setting the slowest speed (#1326) (@cwhett)
+- fix: show the H5089 night light tile again, but refuse control commands, so it reports the real state instead of quietly ignoring taps (#1323)
 
 ## v11.31.0 (2026-07-24)
 
