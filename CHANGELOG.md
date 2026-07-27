@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - chore(github): use the shared homebridge action to deprecate past pre-releases
+- chore(github): allow the pre-release keep count to be set when running the deprecation workflow
 - feat(ui): hide or show a device in homekit from the my devices tab
 - chore(deps): dependency updates
 - style(ui): standardise the custom ui layout and sync the support tab with the readme
@@ -25,6 +26,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: stop sending a per-outlet value to the govee api, which rejected every press with a parameter out of range error on two-outlet plugs (#1323)
 - fix: hide the H5089 night light tile until its commands are worked out, rather than showing a control that does nothing (#1323)
 - feat: add support for the H3001 solar string lights as an rgb light (#1328)
+- docs(changelog): list every unreleased commit in the pending section
 
 ## v11.31.0 (2026-07-24)
 
