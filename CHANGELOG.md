@@ -24,6 +24,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: also send the H5089 night light the command shape the supported govee purifiers use, since mirroring the plug's own status code was not enough on its own (#1323)
 - fix: stop sending a per-outlet value to the govee api, which rejected every press with a parameter out of range error on two-outlet plugs (#1323)
 - fix: hide the H5089 night light tile until its commands are worked out, rather than showing a control that does nothing (#1323)
+- feat: add support for the H3001 solar string lights as an rgb light (#1328)
 
 ## v11.31.0 (2026-07-24)
 
