@@ -22,6 +22,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add the H5089 night light as a homekit light tile with on, off and brightness (#1323)
 - fix: send the H5089 night light commands as the newer ptIot type the plug listens for, instead of being silently ignored (#1323)
 - fix: also send the H5089 night light the command shape the supported govee purifiers use, since mirroring the plug's own status code was not enough on its own (#1323)
+- fix: stop sending a per-outlet value to the govee api, which rejected every press with a parameter out of range error on two-outlet plugs (#1323)
 
 ## v11.31.0 (2026-07-24)
 
