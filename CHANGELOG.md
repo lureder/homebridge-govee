@@ -17,7 +17,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: declare the supports-hap transport keyword for the homebridge ui
 - feat: add support for the H60B3 uplighter as an rgb light (#1325)
 - feat: add support for the H5901 water timer through the govee openapi (#1324)
-- fix(fans): map rotation speed as a percentage on every fan model, so homekit stops showing speeds like 7% and the top of the slider means full power (#1326)
+- fix(fans): map rotation speed as a percentage on every fan model, so homekit stops showing speeds like 7% and the top of the slider means full power (#1326) (@cwhett)
 - chore: log what each device can do according to the govee openapi, in debug mode, to make working out new device support quicker
 - chore: decode the status codes a device reports into readable hex in debug mode, so support for new device features can be worked out from a normal log
 - feat: add the H5089 night light as a homekit light tile with on, off and brightness (#1323)
@@ -26,10 +26,14 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: stop sending a per-outlet value to the govee api, which rejected every press with a parameter out of range error on two-outlet plugs (#1323)
 - fix: hide the H5089 night light tile until its commands are worked out, rather than showing a control that does nothing (#1323)
 - feat: add support for the H3001 solar string lights as an rgb light (#1328)
-- docs(changelog): list every unreleased commit in the pending section
 - fix(fans): rebuild the fan service once when it was cached under the old speed scale, so the top of the slider stops setting the slowest speed (#1326) (@cwhett)
 - fix: show the H5089 night light tile again, but refuse control commands, so it reports the real state instead of quietly ignoring taps (#1323)
 - fix(ice-makers): stop the home app showing an ice size of 0 when one has never been set (#1329) (@cwhett)
+- chore: add a test setup with tests for the shared helper functions
+- chore(github): run the build and tests in ci, on node 22, 24 and 26
+- chore: use the same lint setup across every plugin
+- chore: add a changelog:sync script to populate the pending section from the commits
+- chore(deps): refresh the lock file for the eslint config bump
 - fix(ble): size the update queue timeout from the connection stages, so a slow device still has time to send its command (#1328)
 
 ## v11.31.0 (2026-07-24)

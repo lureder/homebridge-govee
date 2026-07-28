@@ -49,12 +49,16 @@
   "main": "lib/index.js",
   "engines": {
     "homebridge": "^1.6.0 || ^2.0.0",
-    "node": "^22.12.0 || ^24.0.0"
+    "node": "^22.12.0 || ^24.0.0 || ^26.0.0"
   },
   "scripts": {
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "npm run lint -- --fix",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test-coverage": "npm run test -- --coverage",
+    "changelog:sync": "node .github/scripts/sync-changelog.mjs"
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.2.5",
@@ -72,7 +76,9 @@
     "@stoprocent/noble": "^2.5.9"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.2.0"
+    "@antfu/eslint-config": "^9.2.0",
+    "@vitest/coverage-v8": "^4.1.10",
+    "vitest": "^4.1.10"
   },
   "allowScripts": {
     "@stoprocent/bluetooth-hci-socket@2.2.6": true,
