@@ -53,7 +53,10 @@
   "scripts": {
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "npm run lint -- --fix",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test-coverage": "npm run test -- --coverage"
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.2.5",
@@ -71,7 +74,9 @@
     "@stoprocent/noble": "^2.5.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.1.0"
+    "@antfu/eslint-config": "^9.1.0",
+    "@vitest/coverage-v8": "^4.1.10",
+    "vitest": "^4.1.10"
   },
   "allowScripts": {
     "@stoprocent/bluetooth-hci-socket@2.2.6": true,

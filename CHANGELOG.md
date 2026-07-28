@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - chore(github): use the shared homebridge action to deprecate past pre-releases
+- chore: add a test setup with tests for the shared helper functions
 
 ## v11.31.0 (2026-07-24)
 
