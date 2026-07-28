@@ -7,8 +7,9 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - chore(github): use the shared homebridge action to deprecate past pre-releases
+- chore(github): allow the pre-release keep count to be set when running the deprecation workflow
+- fix(fans): map rotation speed as a percentage on every fan model, so homekit stops showing speeds like 7% and the top of the slider means full power (#1326) (@cwhett)
 - chore: add a test setup with tests for the shared helper functions
-- chore: declare support for node 26
 - chore(github): run the build and tests in ci, on node 22, 24 and 26
 - chore: use the same lint setup across every plugin
 
