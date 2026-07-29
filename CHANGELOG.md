@@ -37,6 +37,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix(ble): size the update queue timeout from the connection stages, so a slow device still has time to send its command (#1328)
 - chore: count a repeated commit subject once when syncing the changelog
 - chore(github): check the changelog against the commits in ci
+- fix(openapi): report govee's own reason when it refuses a command, instead of the command appearing to succeed (#1324)
 
 ## v11.31.0 (2026-07-24)
 
