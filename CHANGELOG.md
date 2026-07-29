@@ -38,6 +38,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - chore: count a repeated commit subject once when syncing the changelog
 - chore(github): check the changelog against the commits in ci
 - fix(openapi): report govee's own reason when it refuses a command, instead of the command appearing to succeed (#1324)
+- fix: report why a command failed instead of claiming no connection method was available (#1324)
 
 ## v11.31.0 (2026-07-24)
 
