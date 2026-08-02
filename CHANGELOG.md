@@ -34,6 +34,8 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: build the switch and outlet tiles of a multi-socket device from one handler instead of two copies of it
 - fix: move the H7152 dehumidifier's speed slider when it reports a new speed, which until now only the H7150 and H7151 did
 - refactor: point the H7101 and H7111 fans at the H7100 handler they matched command for command
+- feat: give a diffuser model that has not been worked out yet the same starting handler the other appliances have, so it works for on and off
+- refactor: choose a device handler from a table, so adding a device type no longer means editing the platform
 
 ## v11.32.1 (2026-08-02)
 
