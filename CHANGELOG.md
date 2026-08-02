@@ -42,6 +42,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - test: check what the plugin sends over aws, the local network and the public api, none of which was covered before
 - feat: say when govee has not listed a capability the plugin is about to use, since the request then succeeds and the device does nothing
 - docs: note that the local network api accepts the raw command form, which is how scenes work without the cloud
+- refactor: give every device one shared starting point, so the way a failed command is reported and undone is decided in one place rather than a hundred
 
 ## v11.32.1 (2026-08-02)
 
