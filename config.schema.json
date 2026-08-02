@@ -1260,7 +1260,7 @@
             "tempReporting": {
               "type": "boolean",
               "title": "Temperature Reporting",
-              "description": "Enable this if your H7130 device reports ambient temperature.",
+              "description": "Only needed to override the plugin. It works out on its own whether this heater reports the room temperature, and picks the right tile.",
               "condition": {
                 "functionBody": "return (model.heaterDevices && model.heaterDevices[arrayIndices] && model.heaterDevices[arrayIndices].deviceId && model.heaterDevices[arrayIndices].deviceId.length === 23);"
               }
