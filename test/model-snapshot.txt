@@ -4229,7 +4229,7 @@ H7100 (fan)
     SwingMode
 
 H7101 (fan)
-  handler: deviceFanH7101
+  handler: GoveeFanH7101
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
@@ -4280,7 +4280,7 @@ H7107 (fan)
     Saturation
 
 H7111 (fan)
-  handler: deviceFanH7111
+  handler: GoveeFanH7101
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
@@ -4597,13 +4597,13 @@ H714E (humidifier)
     RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
 
 H7150 (dehumidifier)
-  handler: deviceDehumidifierH7150
+  handler: GoveeDehumidifierH7150
   service: Fan
     On
     RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
 
 H7151 (dehumidifier)
-  handler: deviceDehumidifierH7151
+  handler: GoveeDehumidifierH7150
   service: Fan
     On
     RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
