@@ -243,4 +243,30 @@ export function makePlatform(overrides = {}) {
   return platform
 }
 
+/**
+ * Records every call, so a test can look at what was logged without pulling in
+ * a mocking library here.
+ */
+function recorder() {
+  const calls = []
+  const fn = (...args) => calls.push(args)
+  fn.calls = calls
+  fn.messages = () => calls.map(call => String(call[0]))
+  return fn
+}
+
+/**
+ * An accessory ready to hand to a device handler directly, for the behaviour
+ * the model snapshot cannot see - how a device reads a message back.
+ */
+export function makeAccessory(model, context = {}) {
+  const accessory = new FakeAccessory(model, `uuid-${model}`)
+  Object.assign(accessory.context, { gvModel: model, gvDeviceId: 'AA:BB' }, context)
+  accessory.log = recorder()
+  accessory.logWarn = recorder()
+  accessory.logDebug = recorder()
+  accessory.logDebugWarn = recorder()
+  return accessory
+}
+
 export { deviceIdFor, FakeAccessory, FakeService }

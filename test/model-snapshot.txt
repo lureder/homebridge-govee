@@ -4293,7 +4293,7 @@ H7112 (fan)
     RotationSpeed
 
 H7120 (purifier)
-  handler: devicePurifierH7120
+  handler: GoveePurifierH7120
   service: AirPurifier
     Active
     DisplayLight
@@ -4303,7 +4303,7 @@ H7120 (purifier)
     TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
 
 H7121 (purifier)
-  handler: devicePurifierH7121
+  handler: GoveePurifierH7120
   service: AirPurifier
     Active
     DisplayLight
@@ -4325,7 +4325,7 @@ H7122 (purifier)
     PM2_5Density
 
 H7123 (purifier)
-  handler: devicePurifierH7123
+  handler: GoveePurifierH7123
   service: AirPurifier
     Active
     DisplayLight
@@ -4337,7 +4337,7 @@ H7123 (purifier)
     AirQuality
 
 H7124 (purifier)
-  handler: devicePurifierH7124
+  handler: GoveePurifierH7123
   service: AirPurifier
     Active
     DisplayLight

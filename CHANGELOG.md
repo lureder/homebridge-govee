@@ -28,6 +28,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: work out what an appliance can do from what the device itself reports, so a model nobody has written down still gets the right controls
 - feat: offer oscillation and the child lock on any appliance that reports having them, driven through govee's api rather than needing that model's command codes
 - refactor: point three more models at a shared handler instead of a near-copy of the same file, keeping each one's behaviour exactly as it was
+- fix: give the H7124 the air quality handling the H7123 already had, so a poor reading is named properly and stops being logged over and over (#1261)
 
 ## v11.32.1 (2026-08-02)
 
