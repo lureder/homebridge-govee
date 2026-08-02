@@ -37,6 +37,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: give a diffuser model that has not been worked out yet the same starting handler the other appliances have, so it works for on and off
 - refactor: choose a device handler from a table, so adding a device type no longer means editing the platform
 - refactor: move the settings parsing into its own file, away from the code that talks to devices
+- refactor: move the work of describing a device to its handler into its own file
 
 ## v11.32.1 (2026-08-02)
 
