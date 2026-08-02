@@ -40,6 +40,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix(openapi): report govee's own reason when it refuses a command, instead of the command appearing to succeed (#1324)
 - fix: report why a command failed instead of claiming no connection method was available (#1324)
 - fix(ble): use the segment-based colour command for the H617A, whose LEDs ignore the simple RGB colour commands (#1332)
+- feat: add support for the H1250 ceiling light pro as an rgb light (#1333)
 
 ## v11.31.0 (2026-07-24)
 
