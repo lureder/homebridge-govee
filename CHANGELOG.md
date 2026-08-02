@@ -13,6 +13,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: send the H7107's oscillation-off command without the swing-range bytes, matching the zero-tailed frame the fan echoes back (#1334)
 - feat: add support for the H8121 and H8122 ice makers, with small, medium and large ice sizes (pending owner confirmation)
 - fix: send the H6102 the colour command its firmware expects, since the previous one was accepted but ignored (#1332)
+- fix: read the H5179 sensor's temperature from its own bytes, since it was picking up part of the humidity and reporting slightly wrong
 
 ## v11.32.1 (2026-08-02)
 
