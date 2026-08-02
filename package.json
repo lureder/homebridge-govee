@@ -63,7 +63,7 @@
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.2.5",
     "aws-iot-device-sdk": "^2.2.16",
-    "axios": "^1.18.1",
+    "axios": "^1.19.0",
     "mqtt": "^5.15.2",
     "node-persist": "^4.0.4",
     "node-rsa": "^2.0.0",
@@ -72,8 +72,8 @@
     "pem": "^1.14.8"
   },
   "optionalDependencies": {
-    "@stoprocent/bluetooth-hci-socket": "^2.2.6",
-    "@stoprocent/noble": "^2.5.9"
+    "@stoprocent/bluetooth-hci-socket": "^2.3.0",
+    "@stoprocent/noble": "^2.6.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.2.0",
@@ -81,10 +81,11 @@
     "vitest": "^4.1.10"
   },
   "allowScripts": {
-    "@stoprocent/bluetooth-hci-socket@2.2.6": true,
-    "@stoprocent/noble@2.5.9": true,
-    "usb@2.18.0": true,
-    "@serialport/bindings-cpp@12.0.1": true
+    "@serialport/bindings-cpp": true,
+    "@stoprocent/bluetooth-hci-socket": true,
+    "@stoprocent/noble": true,
+    "fsevents": true,
+    "usb": true
   },
   "overrides": {
     "help-me": "^5.0.0"
