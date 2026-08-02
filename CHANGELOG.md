@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - docs: add node 26 to the supported node versions
+- fix: read the H5106 monitor's temperature and humidity from the http device list too, so accounts whose aws channel never delivers still get readings (#1322)
 
 ## v11.32.0 (2026-08-02)
 
