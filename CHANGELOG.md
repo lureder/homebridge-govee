@@ -21,6 +21,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add 24 more light models, three thermo-hygrometers and a leak detector
 - feat: add the H7103 and H7112 fans and the H5085 plug, with unknown controls saying so instead of guessing
 - feat: give every appliance type a starting handler, so a new model works for on and off and asks for the rest
+- refactor: point models that behave identically at one shared handler instead of copies of the same file
 
 ## v11.32.1 (2026-08-02)
 
