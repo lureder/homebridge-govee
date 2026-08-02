@@ -15,6 +15,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: send the H6102 the colour command its firmware expects, since the previous one was accepted but ignored (#1332)
 - fix: read the H5179 sensor's temperature from its own bytes, since it was picking up part of the humidity and reporting slightly wrong
 - feat: log govee sensors whose bluetooth broadcast is not recognised, so unsupported models can be identified
+- feat: report unrecognised device data in one line with the model, firmware and connection, so it can be sent in without follow-up questions
 
 ## v11.32.1 (2026-08-02)
 
