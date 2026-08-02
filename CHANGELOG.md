@@ -36,6 +36,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: point the H7101 and H7111 fans at the H7100 handler they matched command for command
 - feat: give a diffuser model that has not been worked out yet the same starting handler the other appliances have, so it works for on and off
 - refactor: choose a device handler from a table, so adding a device type no longer means editing the platform
+- refactor: move the settings parsing into its own file, away from the code that talks to devices
 
 ## v11.32.1 (2026-08-02)
 
