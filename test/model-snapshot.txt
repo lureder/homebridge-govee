@@ -4680,7 +4680,7 @@ H7171 (kettle)
     ServiceLabelIndex
 
 H7172 (iceMaker)
-  handler: deviceIceMakerH7172
+  handler: GoveeIceMaker
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
@@ -4749,7 +4749,7 @@ H717A (kettle)
     ServiceLabelIndex
 
 H717D (iceMaker)
-  handler: deviceIceMakerH7172
+  handler: GoveeIceMaker
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
@@ -5133,19 +5133,19 @@ H8102 (iceMaker)
     RotationSpeed
 
 H8120 (iceMaker)
-  handler: deviceIceMakerH7172
+  handler: GoveeIceMaker
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
 
 H8121 (iceMaker)
-  handler: GoveeIceMakerH8121
+  handler: GoveeIceMaker
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
 
 H8122 (iceMaker)
-  handler: GoveeIceMakerH8121
+  handler: GoveeIceMaker
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
