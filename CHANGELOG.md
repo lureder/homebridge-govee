@@ -18,6 +18,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: report unrecognised device data in one line with the model, firmware and connection, so it can be sent in without follow-up questions
 - feat: work out for itself whether a heater reports the room temperature, and add the H7137 and H713E
 - feat: add support for 85 more light models, covering everything currently sold that was missing
+- feat: add 24 more light models, three thermo-hygrometers and a leak detector
 
 ## v11.32.1 (2026-08-02)
 
