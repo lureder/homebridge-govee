@@ -846,6 +846,12 @@ H5179 (sensorThermo)
   service: TemperatureSensor *primary
     CurrentTemperature
 
+H5181 (sensorProbe)
+  handler: deviceSensorProbe
+
+H5182 (sensorProbe)
+  handler: deviceSensorProbe
+
 H5183 (sensorThermo)
   handler: deviceSensorThermo
   service: Battery
@@ -855,8 +861,11 @@ H5183 (sensorThermo)
   service: TemperatureSensor *primary
     CurrentTemperature
 
-H5185 (template)
-  handler: deviceTemplate
+H5184 (sensorProbe)
+  handler: deviceSensorProbe
+
+H5185 (sensorProbe)
+  handler: deviceSensorProbe
 
 H5190 (sensorThermo)
   handler: deviceSensorThermo
@@ -867,11 +876,23 @@ H5190 (sensorThermo)
   service: TemperatureSensor *primary
     CurrentTemperature
 
-H5191 (template)
-  handler: deviceTemplate
+H5191 (sensorProbe)
+  handler: deviceSensorProbe
 
-H5198 (sensorThermo4)
-  handler: deviceSensorThermo4
+H5192 (sensorProbe)
+  handler: deviceSensorProbe
+
+H5194 (sensorProbe)
+  handler: deviceSensorProbe
+
+H5196 (sensorProbe)
+  handler: deviceSensorProbe
+
+H5198 (sensorProbe)
+  handler: deviceSensorProbe
+
+H5199 (sensorProbe)
+  handler: deviceSensorProbe
 
 H5220 (sensorThermo)
   handler: deviceSensorThermo
@@ -890,6 +911,9 @@ H5310 (sensorThermo)
     CurrentRelativeHumidity
   service: TemperatureSensor *primary
     CurrentTemperature
+
+H5610 (sensorProbe)
+  handler: deviceSensorProbe
 
 H5830 (sensorLeak)
   handler: deviceSensorLeak
