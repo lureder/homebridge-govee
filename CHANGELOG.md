@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: BLE device control on macOS by resolving peripherals via advertised name (#1336) (@Perafan18)
 - fix: implement the H7107's oscillation toggle, which threw a not-implemented error when tapped (#1334)
 - fix: also send the H7107's oscillation command as the multiSync frame the fan itself uses, since the first shape only turned it off sometimes (#1334)
+- fix: send the H7107's oscillation-off command without the swing-range bytes, matching the zero-tailed frame the fan echoes back (#1334)
 
 ## v11.32.1 (2026-08-02)
 
