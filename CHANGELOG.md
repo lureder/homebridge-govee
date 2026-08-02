@@ -41,6 +41,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: move the rules for combining govee's device lists, and for letting go of a device that has gone, into their own file with tests
 - test: check what the plugin sends over aws, the local network and the public api, none of which was covered before
 - feat: say when govee has not listed a capability the plugin is about to use, since the request then succeeds and the device does nothing
+- docs: note that the local network api accepts the raw command form, which is how scenes work without the cloud
 
 ## v11.32.1 (2026-08-02)
 
