@@ -25,6 +25,8 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: stop shipping the test files to npm, since they are only needed in the repository
 - fix: refuse to send a bluetooth command too long to fit in a packet, rather than sending a longer one the device quietly ignores
 - test: record what every supported model turns into, so a change can be shown to have altered nothing
+- feat: work out what an appliance can do from what the device itself reports, so a model nobody has written down still gets the right controls
+- feat: offer oscillation and the child lock on any appliance that reports having them, driven through govee's api rather than needing that model's command codes
 
 ## v11.32.1 (2026-08-02)
 
