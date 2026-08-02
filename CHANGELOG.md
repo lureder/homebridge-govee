@@ -22,6 +22,9 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add the H7103 and H7112 fans and the H5085 plug, with unknown controls saying so instead of guessing
 - feat: give every appliance type a starting handler, so a new model works for on and off and asks for the rest
 - refactor: point models that behave identically at one shared handler instead of copies of the same file
+- fix: stop shipping the test files to npm, since they are only needed in the repository
+- fix: refuse to send a bluetooth command too long to fit in a packet, rather than sending a longer one the device quietly ignores
+- test: record what every supported model turns into, so a change can be shown to have altered nothing
 
 ## v11.32.1 (2026-08-02)
 
