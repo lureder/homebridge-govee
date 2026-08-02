@@ -1,0 +1,5434 @@
+B5178 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+B7080 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+B7081 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+B7082 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1161 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1162 (template)
+  handler: deviceTemplate
+
+H1163 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1167 (template)
+  handler: deviceTemplate
+
+H1168 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1232 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1250 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1252 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1270 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H12D0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1310 (fan)
+  handler: deviceFanH1310
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+H1370 (fan)
+  handler: deviceFanH1370
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+  service: Lightbulb
+    Brightness
+    ColorTemperature  [maxValue=370, minValue=154]
+    On
+
+H1401 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H14A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H14C0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H14C1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H14C2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1630 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H16B0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H16C0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1741 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1771 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1811 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1A42 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1A43 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1A44 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1A45 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1AA2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1AA5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1AB1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1AB2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1AB3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H1B6A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H2800 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H2A40 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H2A41 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3001 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H30D0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H30D1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3200 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3351 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3401 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3500 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3501 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3510 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3511 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3751 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3860 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3A51 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3A52 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H3A53 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H5001 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H5010 (template)
+  handler: deviceTemplate
+
+H5024 (template)
+  handler: deviceTemplate
+
+H5042 (template)
+  handler: deviceTemplate
+
+H5043 (template)
+  handler: deviceTemplate
+
+H5051 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5052 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5053 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5054 (sensorLeak)
+  handler: deviceSensorLeak
+  service: Battery
+    BatteryLevel
+  service: LeakSensor
+    LastActivation
+    LeakDetected
+
+H5055 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5058 (sensorLeak)
+  handler: deviceSensorLeak
+  service: Battery
+    BatteryLevel
+  service: LeakSensor
+    LastActivation
+    LeakDetected
+
+H5059 (sensorLeak)
+  handler: deviceSensorLeak
+  service: Battery
+    BatteryLevel
+  service: LeakSensor
+    LastActivation
+    LeakDetected
+
+H5071 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5072 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5074 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5075 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5080 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H5081 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H5082 (switchDouble)
+  handler: deviceOutletDouble
+  service: Outlet (outlet1)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Outlet (outlet2)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H5083 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H5085 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H5086 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    CurrentConsumption
+    ElectricCurrent
+    On
+    Voltage
+
+H5089 (switchDouble)
+  handler: deviceOutletDouble
+  service: Lightbulb (nightlight)
+    Brightness
+    ConfiguredName
+    On
+  service: Outlet (outlet1)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Outlet (outlet2)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H5100 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5101 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5102 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5103 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5104 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5105 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5106 (sensorMonitor)
+  handler: deviceSensorMonitor
+  service: AirQualitySensor
+    PM2_5Density
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5107 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5108 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5109 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5110 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5111 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5112 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5121 (template)
+  handler: deviceTemplate
+
+H5122 (sensorButton)
+  handler: deviceSensorButton
+
+H5123 (sensorContact)
+  handler: deviceSensorContact
+
+H5124 (template)
+  handler: deviceTemplate
+
+H5125 (template)
+  handler: deviceTemplate
+
+H5126 (template)
+  handler: deviceTemplate
+
+H5127 (sensorPresence)
+  handler: deviceSensorPresence
+  service: OccupancySensor
+    OccupancyDetected
+
+H5129 (template)
+  handler: deviceTemplate
+
+H5140 (sensorCO2)
+  handler: deviceSensorCO2
+  service: CarbonDioxideSensor
+    CarbonDioxideDetected
+    CarbonDioxideLevel
+    CarbonDioxidePeakLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor
+    CurrentTemperature
+
+H5160 (switchTriple)
+  handler: deviceOutletTriple
+  service: Outlet (outlet1)
+    On
+  service: Outlet (outlet2)
+    On
+  service: Outlet (outlet3)
+    On
+
+H5171 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5174 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5177 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5179 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5183 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5185 (template)
+  handler: deviceTemplate
+
+H5190 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5191 (template)
+  handler: deviceTemplate
+
+H5198 (sensorThermo4)
+  handler: deviceSensorThermo4
+
+H5220 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5310 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+H5830 (sensorLeak)
+  handler: deviceSensorLeak
+  service: Battery
+    BatteryLevel
+  service: LeakSensor
+    LastActivation
+    LeakDetected
+
+H5901 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H6001 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6002 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6003 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6004 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6005 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6006 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6007 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6008 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6009 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H600A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H600B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H600C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H600D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6010 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6011 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6013 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H601A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H601B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H601C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H601D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H601E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H601F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6020 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6022 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6038 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6039 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6042 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6043 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6046 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6047 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6048 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6049 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H604A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H604B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H604C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H604D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6050 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6051 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6052 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6053 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6054 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6055 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6056 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6057 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6058 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6059 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H605A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H605B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H605C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H605D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6061 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6062 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6063 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6065 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6066 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6067 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6069 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H606A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6071 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6072 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6073 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6075 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6076 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6078 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6079 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H607C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6083 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6085 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6086 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6087 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6088 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6089 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H608A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H608B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H608C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H608D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6091 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6092 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6093 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6094 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6095 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6097 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6098 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6099 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H609D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60A0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60A4 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60A6 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60B0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60B1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60B2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60B3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H60C1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6101 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6102 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6104 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6105 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6107 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6109 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H610A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H610B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6110 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6113 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6114 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6116 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6117 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6118 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6119 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H611A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H611B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H611C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H611Z (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6121 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6125 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6126 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6127 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6129 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H612A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H612B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H612C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H612D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H612E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H612F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6135 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6137 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6138 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6139 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H613G (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6141 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6142 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6143 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6144 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6145 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6146 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6147 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6148 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H614A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H614B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H614C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H614D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H614E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6154 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6159 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H615A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H615B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H615C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H615D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H615E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H615F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6160 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6161 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6163 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6165 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6166 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6167 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6168 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6169 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H616B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H616C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H616D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H616E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6170 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6171 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6172 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6173 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6175 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6176 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6178 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6179 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H617A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H617C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H617E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H617F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H617G (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6181 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6182 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6184 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6185 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6188 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H618A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H618C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H618E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H618F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H618G (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6192 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6194 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6195 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6196 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6198 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6199 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H619A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H619B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H619C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H619D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H619E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H619Z (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A8 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61A9 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B6 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B8 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61B9 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61BA (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61BC (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61BE (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61C2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61C3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61C5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61D2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61D3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61D5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61D6 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61E0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61E1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61E5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61E6 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61F2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61F5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H61F6 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6350 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6351 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6601 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6602 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6603 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6604 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6608 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6609 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6630 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6631 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6640 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6641 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6671 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6672 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6690 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H66A0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H66A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6800 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6810 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6811 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6821 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6840 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6841 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6842 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6843 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6850 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6860 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6861 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6870 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H6871 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7001 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7002 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7004 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7005 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7006 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7007 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7008 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7010 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7011 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7012 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7013 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7014 (switchSingle)
+  handler: deviceOutletSingle
+  service: Outlet
+    On
+
+H7015 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7016 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7017 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7019 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7020 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7021 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7022 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7023 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7024 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7025 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7026 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7027 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7028 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7029 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H702A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H702B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H702C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7031 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7032 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7033 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7037 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7038 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7039 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H703A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H703B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7040 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7041 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7042 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7045 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7046 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7050 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7051 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7052 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7053 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7055 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7056 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7057 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7058 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H705A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H705B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H705C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H705D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H705E (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H705F (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7060 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7061 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7062 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7063 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7065 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7066 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7067 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7068 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7069 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H706A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H706B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H706C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7070 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7071 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7072 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7073 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7075 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7076 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7078 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H707A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H707B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H707C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7086 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7087 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7090 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7092 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7093 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7094 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7095 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70A2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70A3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70B1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70B3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70B4 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70B5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70B6 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70B8 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70BC (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70C1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70C2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70C4 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70C5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70C7 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70C9 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70CB (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70D1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70D2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H70D3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7100 (fan)
+  handler: deviceFanH7100
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+H7101 (fan)
+  handler: deviceFanH7101
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+H7102 (fan)
+  handler: deviceFanH7100
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+H7103 (fan)
+  handler: deviceFanBasic
+  service: Fanv2
+    Active
+    RotationSpeed
+
+H7105 (fan)
+  handler: deviceFanH7105
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7106 (fan)
+  handler: deviceFanH7100
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+H7107 (fan)
+  handler: deviceFanH7107
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7111 (fan)
+  handler: deviceFanH7111
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+H7112 (fan)
+  handler: deviceFanBasic
+  service: Fanv2
+    Active
+    RotationSpeed
+
+H7120 (purifier)
+  handler: devicePurifierH7120
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    NightLight
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+
+H7121 (purifier)
+  handler: devicePurifierH7121
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    NightLight
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+
+H7122 (purifier)
+  handler: devicePurifierH7122
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    NightLight
+    RotationSpeed  [minStep=20, validValues=[0,20,40,60,80,100]]
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+  service: AirQualitySensor
+    PM2_5Density
+
+H7123 (purifier)
+  handler: devicePurifierH7123
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    NightLight
+    RotationSpeed  [minStep=20, validValues=[0,20,40,60,80,100]]
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+  service: AirQualitySensor
+    AirQuality
+
+H7124 (purifier)
+  handler: devicePurifierH7124
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    NightLight
+    RotationSpeed  [minStep=20, validValues=[0,20,40,60,80,100]]
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+  service: AirQualitySensor
+    AirQuality
+
+H7126 (purifier)
+  handler: devicePurifierH7126
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    TargetAirPurifierState  [validValues=[0]]
+
+H7127 (purifier)
+  handler: devicePurifierH7126
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    TargetAirPurifierState  [validValues=[0]]
+
+H7128 (purifier)
+  handler: devicePurifierH7126
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    TargetAirPurifierState  [validValues=[0]]
+
+H7129 (purifier)
+  handler: devicePurifierH7126
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    TargetAirPurifierState  [validValues=[0]]
+
+H712C (purifier)
+  handler: devicePurifierH7126
+  service: AirPurifier
+    Active
+    DisplayLight
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    TargetAirPurifierState  [validValues=[0]]
+
+H7130 (heater1)
+  handler: deviceHeater1A
+  service: Fanv2
+    Active
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    SwingMode
+
+H7131 (heater2)
+  handler: deviceHeater2
+  service: Fan
+    On
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+  service: HeaterCooler
+    Active
+    CurrentTemperature
+    HeatingThresholdTemperature  [maxValue=30, minStep=1, minValue=5]
+    LockPhysicalControls
+    SwingMode
+    TargetHeaterCoolerState  [maxValue=1, minValue=0, validValues=[0,1]]
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7132 (heater2)
+  handler: deviceHeater2
+  service: Fan
+    On
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+  service: HeaterCooler
+    Active
+    CurrentTemperature
+    HeatingThresholdTemperature  [maxValue=30, minStep=1, minValue=5]
+    LockPhysicalControls
+    SwingMode
+    TargetHeaterCoolerState  [maxValue=1, minValue=0, validValues=[0,1]]
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7133 (heater2)
+  handler: deviceHeater2
+  service: Fan
+    On
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+  service: HeaterCooler
+    Active
+    CurrentTemperature
+    HeatingThresholdTemperature  [maxValue=30, minStep=1, minValue=5]
+    LockPhysicalControls
+    SwingMode
+    TargetHeaterCoolerState  [maxValue=1, minValue=0, validValues=[0,1]]
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7134 (heater2)
+  handler: deviceHeater2
+  service: Fan
+    On
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+  service: HeaterCooler
+    Active
+    CurrentTemperature
+    HeatingThresholdTemperature  [maxValue=30, minStep=1, minValue=5]
+    LockPhysicalControls
+    SwingMode
+    TargetHeaterCoolerState  [maxValue=1, minValue=0, validValues=[0,1]]
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7135 (heater2)
+  handler: deviceHeater2
+  service: Fan
+    On
+    RotationSpeed  [minStep=25, validValues=[0,25,50,75,100]]
+  service: HeaterCooler
+    Active
+    CurrentTemperature
+    HeatingThresholdTemperature  [maxValue=30, minStep=1, minValue=5]
+    LockPhysicalControls
+    SwingMode
+    TargetHeaterCoolerState  [maxValue=1, minValue=0, validValues=[0,1]]
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7137 (heater1)
+  handler: deviceHeater1A
+  service: Fanv2
+    Active
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+
+H713A (heater1)
+  handler: deviceHeater1A
+  service: Fanv2
+    Active
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    SwingMode
+
+H713B (heater1)
+  handler: deviceHeater1A
+  service: Fanv2
+    Active
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    SwingMode
+
+H713C (heater1)
+  handler: deviceHeater1A
+  service: Fanv2
+    Active
+    LockPhysicalControls
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+    SwingMode
+
+H713E (heater1)
+  handler: deviceHeater1A
+  service: Fanv2
+    Active
+    RotationSpeed  [minStep=33, validValues=[0,33,66,99]]
+
+H7140 (humidifier)
+  handler: deviceHumidifierH7140
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+  service: Lightbulb
+    On
+
+H7141 (humidifier)
+  handler: deviceHumidifierH7141
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7142 (humidifier)
+  handler: deviceHumidifierH7142
+  service: Fan
+    On
+    RotationSpeed  [maxValue=9, minStep=1, minValue=0, unit="unitless"]
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7143 (humidifier)
+  handler: deviceHumidifierH7143
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7145 (humidifier)
+  handler: deviceHumidifierH7143
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7146 (humidifier)
+  handler: deviceHumidifierBasic
+  service: Fan
+    On
+    RotationSpeed
+
+H7147 (humidifier)
+  handler: deviceHumidifierH7143
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7148 (humidifier)
+  handler: deviceHumidifierH7143
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7149 (humidifier)
+  handler: deviceHumidifierH7143
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H714E (humidifier)
+  handler: deviceHumidifierH7143
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7150 (dehumidifier)
+  handler: deviceDehumidifierH7150
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7151 (dehumidifier)
+  handler: deviceDehumidifierH7151
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7152 (dehumidifier)
+  handler: deviceDehumidifierH7152
+  service: Fan
+    On
+    RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
+
+H7160 (humidifier)
+  handler: deviceHumidifierH7160
+  service: Fan
+    On
+    RotationSpeed  [maxValue=9, minStep=1, minValue=0, unit="unitless"]
+  service: Lightbulb
+    Brightness
+    Hue
+    On
+    Saturation
+
+H7161 (diffuser)
+  handler: deviceDiffuserH7161
+  service: AirPurifier
+    Active
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+
+H7162 (diffuser)
+  handler: deviceDiffuserH7161
+  service: AirPurifier
+    Active
+    TargetAirPurifierState  [maxValue=1, minValue=1, validValues=[1]]
+
+H7170 (kettle)
+  handler: deviceKettle
+  service: ContactSensor (onBase)
+    ConfiguredName
+  service: Switch (blackTeaBoil)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (coffee)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (greenTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (oolongTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H7171 (kettle)
+  handler: deviceKettle
+  service: ContactSensor (onBase)
+    ConfiguredName
+  service: Switch (blackTeaBoil)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (coffee)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (greenTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (oolongTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H7172 (iceMaker)
+  handler: deviceIceMakerH7172
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
+
+H7173 (kettle)
+  handler: deviceKettle
+  service: ContactSensor (onBase)
+    ConfiguredName
+  service: Switch (blackTeaBoil)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (coffee)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (greenTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (oolongTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H7175 (kettle)
+  handler: deviceKettle
+  service: ContactSensor (onBase)
+    ConfiguredName
+  service: Switch (blackTeaBoil)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (coffee)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (greenTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (oolongTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H717A (kettle)
+  handler: deviceKettle
+  service: ContactSensor (onBase)
+    ConfiguredName
+  service: Switch (blackTeaBoil)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (coffee)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (greenTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+  service: Switch (oolongTea)
+    ConfiguredName
+    On
+    ServiceLabelIndex
+
+H717D (iceMaker)
+  handler: deviceIceMakerH7172
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
+
+H7184 (template)
+  handler: deviceTemplate
+
+H7308 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7309 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7310 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7311 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7312 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7313 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7315 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7317 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H7318 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H800B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8015 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H801A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H801B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H801C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H801D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8022 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8025 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8026 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H802A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8048 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8057 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H805A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H805B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H805C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H805D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8066 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8067 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8069 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H806A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H806C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8072 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8076 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H807C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H808A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8098 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H80A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H80A4 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H80B5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H80C4 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H80C5 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H80D1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8102 (iceMaker)
+  handler: deviceIceMakerBasic
+  service: Fanv2
+    Active
+    RotationSpeed
+
+H8120 (iceMaker)
+  handler: deviceIceMakerH7172
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
+
+H8121 (iceMaker)
+  handler: deviceIceMakerH8121
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
+
+H8122 (iceMaker)
+  handler: deviceIceMakerH8122
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
+
+H8131 (iceMaker)
+  handler: deviceIceMakerBasic
+  service: Fanv2
+    Active
+    RotationSpeed
+
+H8604 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8630 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8811 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8840 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+H8841 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+HXXXX (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R1250 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R1310 (fan)
+  handler: deviceFanH1310
+  service: Fanv2
+    Active
+    RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
+    SwingMode
+
+R1401 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R14A1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R14C0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R14C1 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R14C2 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R1501 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R1630 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R16D0 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R1741 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R1810 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R2A80 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R2A81 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R3A51 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R5112 (sensorThermo)
+  handler: deviceSensorThermo
+  service: Battery
+    BatteryLevel
+  service: HumiditySensor
+    CurrentRelativeHumidity
+  service: TemperatureSensor *primary
+    CurrentTemperature
+
+R60B3 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R617G (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R618D (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R6842 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R6861 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R6871 (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R707A (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R707B (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
+
+R707C (rgb)
+  handler: deviceLight
+  service: Lightbulb
+    Brightness  [minStep=1]
+    ColorTemperature
+    Hue
+    On
+    Saturation
