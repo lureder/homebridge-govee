@@ -4609,7 +4609,7 @@ H7151 (dehumidifier)
     RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
 
 H7152 (dehumidifier)
-  handler: deviceDehumidifierH7152
+  handler: GoveeDehumidifierH7150
   service: Fan
     On
     RotationSpeed  [maxValue=8, minStep=1, minValue=0, unit="unitless"]
