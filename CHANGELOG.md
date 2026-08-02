@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.32.2 (Pending Release)
+
+### Changed
+
+- fix: stop shipping the test files to npm, since they are only needed in the repository
+
 ## v11.32.1 (2026-08-02)
 
 ### Changed
