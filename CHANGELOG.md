@@ -44,6 +44,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - docs: note that the local network api accepts the raw command form, which is how scenes work without the cloud
 - refactor: give every device one shared starting point, so the way a failed command is reported and undone is decided in one place rather than a hundred
 - feat: recognise eleven more meat thermometers, which report what they send so their readings can be worked out, and stop the one already known printing its whole update as a warning
+- feat: add the H5161 power strip and give the H7184 kitchen composter an on and off switch
 
 ## v11.32.1 (2026-08-02)
 

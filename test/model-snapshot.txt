@@ -810,6 +810,15 @@ H5160 (switchTriple)
   service: Outlet (outlet3)
     On
 
+H5161 (switchTriple)
+  handler: deviceOutletTriple
+  service: Outlet (outlet1)
+    On
+  service: Outlet (outlet2)
+    On
+  service: Outlet (outlet3)
+    On
+
 H5171 (sensorThermo)
   handler: deviceSensorThermo
   service: Battery
@@ -4778,8 +4787,10 @@ H717D (iceMaker)
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
 
-H7184 (template)
-  handler: deviceTemplate
+H7184 (composter)
+  handler: deviceComposterBasic
+  service: Switch
+    On
 
 H7308 (rgb)
   handler: deviceLight
