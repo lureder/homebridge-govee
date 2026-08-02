@@ -7,7 +7,8 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - fix: stop shipping the test files to npm, since they are only needed in the repository
-- fix: BLE device control on macOS, by resolving peripherals via their advertised local name (CoreBluetooth never exposes MAC addresses, so the existing connect-by-address path could never succeed on darwin)
+- fix: BLE device control on macOS by resolving peripherals via advertised name (#1336) (@Perafan18)
+- fix: implement the H7107's oscillation toggle, which threw a not-implemented error when tapped (#1334)
 
 ## v11.32.1 (2026-08-02)
 
