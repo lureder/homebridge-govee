@@ -27,6 +27,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - test: record what every supported model turns into, so a change can be shown to have altered nothing
 - feat: work out what an appliance can do from what the device itself reports, so a model nobody has written down still gets the right controls
 - feat: offer oscillation and the child lock on any appliance that reports having them, driven through govee's api rather than needing that model's command codes
+- refactor: point three more models at a shared handler instead of a near-copy of the same file, keeping each one's behaviour exactly as it was
 
 ## v11.32.1 (2026-08-02)
 

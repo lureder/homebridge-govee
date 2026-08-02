@@ -113,7 +113,7 @@ H12D0 (rgb)
     Saturation
 
 H1310 (fan)
-  handler: deviceFanH1310
+  handler: GoveeFanH7100
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
@@ -768,10 +768,10 @@ H5121 (template)
   handler: deviceTemplate
 
 H5122 (sensorButton)
-  handler: deviceSensorButton
+  handler: GoveeSensorBasic
 
 H5123 (sensorContact)
-  handler: deviceSensorContact
+  handler: GoveeSensorBasic
 
 H5124 (template)
   handler: deviceTemplate
@@ -4222,7 +4222,7 @@ H70D3 (rgb)
     Saturation
 
 H7100 (fan)
-  handler: deviceFanH7100
+  handler: GoveeFanH7100
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
@@ -4236,7 +4236,7 @@ H7101 (fan)
     SwingMode
 
 H7102 (fan)
-  handler: deviceFanH7100
+  handler: GoveeFanH7100
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
@@ -4261,7 +4261,7 @@ H7105 (fan)
     Saturation
 
 H7106 (fan)
-  handler: deviceFanH7100
+  handler: GoveeFanH7100
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]
@@ -5139,13 +5139,13 @@ H8120 (iceMaker)
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
 
 H8121 (iceMaker)
-  handler: deviceIceMakerH8121
+  handler: GoveeIceMakerH8121
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
 
 H8122 (iceMaker)
-  handler: deviceIceMakerH8122
+  handler: GoveeIceMakerH8121
   service: Fanv2
     Active
     RotationSpeed  [maxValue=3, minStep=1, minValue=0, unit="unitless"]
@@ -5220,7 +5220,7 @@ R1250 (rgb)
     Saturation
 
 R1310 (fan)
-  handler: deviceFanH1310
+  handler: GoveeFanH7100
   service: Fanv2
     Active
     RotationSpeed  [maxValue=100, minStep=1, minValue=0, unit="unitless"]

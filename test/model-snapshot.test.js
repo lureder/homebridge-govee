@@ -69,13 +69,17 @@ function describeAccessory(instance, uuid) {
 }
 
 /**
- * The device files export an anonymous class, so the class name is no use for
- * telling them apart. This names each one by its key in the device index.
+ * Names the handler a model ended up with.
  *
- * Several keys can point at the same class, because a model that behaves
- * identically to another is aliased rather than copied. The first key
- * alphabetically is used as the name, so adding an alias only changes the line
- * for the model that gained it.
+ * Most device files still export an anonymous class, so the fallback is the
+ * handler's key in the device index. Several keys can point at one class,
+ * because a model that behaves identically to another is aliased rather than
+ * copied, and the first key alphabetically is used.
+ *
+ * ⚠️ That fallback moves when an alphabetically earlier alias is added, which
+ * shows up as label churn in this file for models that did not change. A file
+ * that gives its class a real name gets that name instead and stops moving, so
+ * name the class whenever you touch one.
  */
 const handlerNames = new Map()
 Object.entries(deviceTypes)
@@ -90,7 +94,11 @@ function nameOfHandler(control) {
   if (!control) {
     return 'NONE'
   }
-  return handlerNames.get(control.constructor) ?? `unknown (${control.constructor?.name})`
+  const given = control.constructor?.name
+  if (given && given !== '_default' && !given.startsWith('__vite')) {
+    return given
+  }
+  return handlerNames.get(control.constructor) ?? `unknown (${given})`
 }
 
 function formatProps(props) {
