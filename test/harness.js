@@ -131,8 +131,14 @@ class FakeAccessory {
     this.addService('AccessoryInformation')
   }
 
-  getService(type) {
-    return this.services.find(service => service.type === type)
+  /**
+   * Homebridge looks a service up by its type or by its display name, and
+   * handlers rely on the name form to find and clear out a tile left behind
+   * from a previous setting. Matching only the type would silently skip that.
+   */
+  getService(nameOrType) {
+    return this.services.find(service => service.type === nameOrType)
+      || this.services.find(service => service.displayName === nameOrType)
   }
 
   addService(type, name, subtype) {

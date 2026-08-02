@@ -31,6 +31,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: give the H7124 the air quality handling the H7123 already had, so a poor reading is named properly and stops being logged over and over (#1261)
 - refactor: point the H7151 and H7111 at the handlers they were byte-for-byte copies of
 - refactor: build the ice maker size codes from the model rather than writing both orderings out by hand
+- refactor: build the switch and outlet tiles of a multi-socket device from one handler instead of two copies of it
 
 ## v11.32.1 (2026-08-02)
 
