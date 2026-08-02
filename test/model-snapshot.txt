@@ -488,8 +488,14 @@ H5001 (switchSingle)
 H5010 (template)
   handler: deviceTemplate
 
+H5023 (sensorContact)
+  handler: GoveeSensorBasic
+
 H5024 (template)
   handler: deviceTemplate
+
+H5026 (sensorUnknown)
+  handler: GoveeSensorBasic
 
 H5042 (template)
   handler: deviceTemplate
@@ -789,6 +795,9 @@ H5127 (sensorPresence)
 
 H5129 (template)
   handler: deviceTemplate
+
+H5130 (sensorUnknown)
+  handler: GoveeSensorBasic
 
 H5140 (sensorCO2)
   handler: deviceSensorCO2

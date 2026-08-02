@@ -22,7 +22,6 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add the H7103 and H7112 fans and the H5085 plug, with unknown controls saying so instead of guessing
 - feat: give every appliance type a starting handler, so a new model works for on and off and asks for the rest
 - refactor: point models that behave identically at one shared handler instead of copies of the same file
-- fix: stop shipping the test files to npm, since they are only needed in the repository
 - fix: refuse to send a bluetooth command too long to fit in a packet, rather than sending a longer one the device quietly ignores
 - test: record what every supported model turns into, so a change can be shown to have altered nothing
 - feat: work out what an appliance can do from what the device itself reports, so a model nobody has written down still gets the right controls
@@ -45,6 +44,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - refactor: give every device one shared starting point, so the way a failed command is reported and undone is decided in one place rather than a hundred
 - feat: recognise eleven more meat thermometers, which report what they send so their readings can be worked out, and stop the one already known printing its whole update as a warning
 - feat: add the H5161 power strip and give the H7184 kitchen composter an on and off switch
+- feat: recognise three more sensors, which report what they send, and say plainly in the log why a sensor has no tile yet
 
 ## v11.32.1 (2026-08-02)
 
