@@ -46,6 +46,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add the H5161 power strip and give the H7184 kitchen composter an on and off switch
 - feat: recognise three more sensors, which report what they send, and say plainly in the log why a sensor has no tile yet
 - feat: add ble encryption for the H3001 solar string lights, which silently ignore unencrypted frames (#1328) (@dominick-han)
+- fix: mention an unrecognised bluetooth broadcast once, and only for one of your own sensors, since a scan also hears your lights and the neighbours
 
 ## v11.32.1 (2026-08-02)
 
