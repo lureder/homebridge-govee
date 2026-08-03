@@ -48,6 +48,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: add ble encryption for the H3001 solar string lights, which silently ignore unencrypted frames (#1328) (@dominick-han)
 - fix: mention an unrecognised bluetooth broadcast once, and only for one of your own sensors, since a scan also hears your lights and the neighbours
 - fix: say "device(s)" in the connection summary, since the count is often one
+- fix: stop the macOS bluetooth scan leaving its timer running once the device has been found
 
 ## v11.32.1 (2026-08-02)
 
