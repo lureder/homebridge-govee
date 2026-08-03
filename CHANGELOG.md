@@ -45,6 +45,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - feat: recognise eleven more meat thermometers, which report what they send so their readings can be worked out, and stop the one already known printing its whole update as a warning
 - feat: add the H5161 power strip and give the H7184 kitchen composter an on and off switch
 - feat: recognise three more sensors, which report what they send, and say plainly in the log why a sensor has no tile yet
+- feat: add ble encryption for the H3001 solar string lights, which silently ignore unencrypted frames (#1328) (@dominick-han)
 
 ## v11.32.1 (2026-08-02)
 
