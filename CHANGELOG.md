@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - fix: stop the kettle reporting its startup status as unrecognised scenes (#1337)
+- fix: stop reporting a bluetooth broadcast that carries no data to read (#1338)
 
 ## v11.33.0 (2026-08-03)
 
