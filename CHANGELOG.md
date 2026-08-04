@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.33.1 (Pending Release)
+
+### Changed
+
+- fix: stop the kettle reporting its startup status as unrecognised scenes (#1337)
+
 ## v11.33.0 (2026-08-03)
 
 ### Changed
