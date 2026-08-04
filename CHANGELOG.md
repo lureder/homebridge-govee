@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.33.2 (Pending Release)
+
+### Changed
+
+- fix: implement the H7105 oscillation toggle, which threw a not-implemented error (#1339)
+
 ## v11.33.1 (2026-08-04)
 
 ### Changed
