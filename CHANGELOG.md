@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: report unrecognised device status as status rather than as scenes (#1340)
 - fix: include the payload when reporting an undecoded sensor's messages (#1340)
 - feat: show the kettle's water temperature, once a reading has actually arrived (#1337)
+- chore(deps): dependency updates
 
 ## v11.33.1 (2026-08-04)
 
