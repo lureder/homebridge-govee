@@ -9,6 +9,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 - fix: implement the H7105 oscillation toggle, which threw a not-implemented error (#1339)
 - fix: stop the purifiers reporting their startup status as unrecognised scenes (#1340)
 - fix: report unrecognised device status as status rather than as scenes (#1340)
+- fix: include the payload when reporting an undecoded sensor's messages (#1340)
 
 ## v11.33.1 (2026-08-04)
 
