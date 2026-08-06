@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-govee` will be documented
 ### Changed
 
 - fix: log unrecognised device status at debug, not as a warning per frame (#1341, #1342)
+- chore(deps): dependency updates
 
 ## v11.34.0 (2026-08-05)
 
