@@ -2,6 +2,19 @@
 
 All notable changes to `@homebridge-plugins/homebridge-govee` will be documented in this file.
 
+## v11.39.0 (2026-08-28)
+
+### Changed
+
+- feat(kettle): show which slot the target temperature comes from
+- fix(h1370): send fan power to the fan not the lights, and add the light tiles and oscillation
+- feat(ice-maker): control the H8120 night light and ice making with its real app commands (#1250)
+- feat(h601f): main and ambient light tiles with per-light power and correct brightness (#1223)
+- feat(scenes): a scene selector dropdown with scenes, snapshots and diy scenes (#1360)
+- fix: colour picks raced one behind, and colour echoes desaturated the pick (#1361)
+- fix(h5106): skip command ack frames the monitor was reading as impossible temperatures (#1296)
+- chore(deps): dependency updates
+
 ## v11.37.1 (2026-08-21)
 
 ### Changed
